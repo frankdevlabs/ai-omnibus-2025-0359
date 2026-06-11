@@ -8,6 +8,13 @@
 
 - **EDRi** — open letter "EU lawmakers must safeguard the AI Act"; framed the omnibus as
   deregulation of fundamental-rights protections. [edri.org](https://edri.org/our-work/open-letter-eu-lawmakers-must-safeguard-the-ai-act/)
+- **EDRi, Access Now, ECNL, Amnesty International** — joint statement "AI Omnibus deal: EU
+  lawmakers should reject a rollback of AI safeguards" (11 Jun 2026, post-deal). Calls on the
+  European Parliament to **reject** the provisional deal ahead of the 15 Jun plenary and to
+  "resist the normalisation of deregulation"; targets the high-risk delays (Annex III → 2 Dec
+  2027, Annex I → 2 Aug 2028), reduced public-database transparency, the residual registration
+  easement (Art 6(3)), the bias-data derogation and the machinery Section A → B reclassification.
+  [edri.org](https://edri.org/our-work/ai-omnibus-deal-eu-lawmakers-should-reject-a-rollback-of-ai-safeguards/)
 - **noyb** — open letter: "Digital Omnibus brings deregulation, not simplification" (aimed at the
   package as a whole, incl. this file's bias-data easement).
   [noyb.eu](https://noyb.eu/en/open-letter-digital-omnibus-brings-deregulation-not-simplification)
