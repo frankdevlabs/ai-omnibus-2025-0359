@@ -5,5 +5,48 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: null
-sources: {}
+last_run: 2026-06-11T06:23:11Z
+sources:
+  T1-01:
+    last_seen_hash: "sha256:5058adde5b62fd34321c035ccd1ef8028549010a45205f406abb41219d01407f"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-02:
+    last_seen_hash: "sha256:f253751ff3b69eb8e5a602d7bedec51f9aaeebeac957b8f1bbff6632cf923488"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-03:
+    last_seen_hash: "sha256:607611e328c1ea58cdd7ab4c45b053e45847c64a76b5af4025fb90df7a0aa2ef"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-04:
+    last_seen_hash: "sha256:40c4d5719f2b3ba614092c56307132a99cb5676572e59b75ebd2a21523f83e98"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-05:
+    last_seen_hash: "sha256:513f247ace8d02e2e5d129423b9047b49ca4ac54ac3dd1c6f28a95dc0c4aa098"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-06:
+    last_seen_hash: "sha256:4a16a5acdfb3b1b266d3f895b0a98f2c71ea9fd3da641850350aa1fe39bf2e1f"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-07:
+    last_seen_hash: "sha256:48c50f84029022705d565bd9582319997e623c868c0679f3560f6c57d9e4e3ba"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-08:
+    last_seen_hash: "sha256:37c5424c9f352ecf941de9580d582e2c45b435d8b68623d0cf28ec2d890df7d8"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-09:
+    last_seen_hash: "sha256:b0e0744297f88103603f239c2b13794bccca033bc34aa36515c4d01ddde74dfb"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T1-10:
+    last_seen_hash: "sha256:bd46f1f900694d46fdbab3d26a8d8d1dcd8b745915d3f802ceb4c6ef1b5534ae"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T2-01:
+    last_seen_hash: "sha256:ef56d9e0d717d11f03dcf9441f4b9cf3f305e74928a48d6df16c8ad4aa60a56b"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T2-02:
+    last_seen_hash: "sha256:a253aa68d1bc0a880adc412aa7f1dd4d8ade50c8e0c2d50ee2884cd99ec15370"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T2-03:
+    last_seen_hash: "sha256:3ed1b1384896ede61929651c27d4a993c06a343fb44afa95ee371c99aab0c8ef"
+    last_seen_at: 2026-06-11T06:23:11Z
+  T2-04:
+    last_seen_hash: "sha256:a2e171d18ba4abbaa68ae0bcdcc419287ad2e694c73b818b0cdf8611aff7af56"
+    last_seen_at: 2026-06-11T06:23:11Z
+  # T2-05: not baselined — http-404 (http 404); will baseline on recovery
