@@ -188,9 +188,9 @@ watchlist:
     T2-05:
       tier: T2
       kind: stakeholder
-      label: "IAPP — news feed"
-      url: "https://iapp.org/news/rss/"
+      label: "Covington Global Policy Watch — RSS"
+      url: "https://www.globalpolicywatch.com/feed/"
       affects: [docs/stakeholders.md, STATUS.md]
-      notes: "Consistent fast coverage of AI Act omnibus milestones."
+      notes: "Law-firm analysis with consistent fast coverage of AI Act omnibus milestones. (Replaced IAPP — iapp.org serves a JS app shell with no working RSS to automated clients.)"
     # --- Tier 3: social ------------------------------------------------------
     # none yet (candidates: Luca Bertuzzi / MLex on Bluesky)

@@ -26,8 +26,9 @@ EDPB/EDPS asks; the delay itself and the machinery carve-out went through over t
   (watchlist T1-09; fast mirror of the amended application dates).
 - **MediaLaws** — [Digital Omnibus Legislative Tracker](https://www.medialaws.eu/digital-omnibus-legislative-tracker/)
   (covers both omnibus files; watchlist T2-02).
-- **Tech Policy Press** — running analyses of the omnibus deal (watchlist T2-01); **IAPP** news
-  coverage (T2-05); **NicFab** primary-text analysis series.
+- **Tech Policy Press** — running analyses of the omnibus deal (watchlist T2-01); **Covington
+  Global Policy Watch** (T2-05); **IAPP** and **NicFab** coverage (no curl-fetchable feed — cite
+  manually).
 - **Law-firm coverage** (consistent on the core dates; the consolidated text remains the only
   authoritative source): Bird & Bird, Gibson Dunn, White & Case ("expected before 2 August 2026 …
   enter into force three days later"), Hogan Lovells, Taylor Wessing, Travers Smith, Matheson,
