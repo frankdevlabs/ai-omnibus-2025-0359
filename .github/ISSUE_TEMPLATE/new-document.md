@@ -7,7 +7,7 @@ labels: document
 
 ## Document metadata
 
-- **Institutional ID:** (e.g. ST 9547/26, COM(2025) 837, PE782.xxx)
+- **Institutional ID:** (e.g. ST 7322/26, COM(2025) 836, PE789.xxx)
 - **Title:**
 - **Body / institution:** (Commission / Council / Parliament / EDPB-EDPS / EESC / ECB / national parliament / stakeholder)
 - **Date (ISO):**

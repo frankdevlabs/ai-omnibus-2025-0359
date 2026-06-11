@@ -5,86 +5,83 @@
 # else (CLAUDE.md, README.md, STATUS.md, the skills' scope checks) reads from
 # here or is filled from here by `python3 bootstrap.py`.
 #
-# It ships FILLED IN with file 2025/0360 (COD) — the Digital Omnibus — as a
-# complete worked example, matching the EXAMPLE content elsewhere in the repo.
-# To start a new tracker:
-#   1. Replace every value below with your file's.
-#   2. Run `python3 bootstrap.py` to push the <PLACEHOLDER> tokens into the
-#      static docs (CLAUDE.md, README.md, STATUS.template.md -> STATUS.md).
-#   3. Replace the EXAMPLE-marked content (see SETUP.md).
-# See SETUP.md for the full checklist.
+# This tracker follows file 2025/0359 (COD) — the Digital Omnibus on AI
+# ("AI Omnibus"), the AI-Act half of the Digital Omnibus package (19 Nov 2025).
 # ============================================================================
 
 # --- Identity ---------------------------------------------------------------
-file_id: "2025/0360 (COD)"                # interinstitutional file number + procedure type
-short_name: "Digital Omnibus (data/cyber)"
-strand: "GDPR, ePrivacy/cookies, P2B, cyber incident-reporting"
+file_id: "2025/0359 (COD)"                # interinstitutional file number + procedure type
+short_name: "Digital Omnibus on AI (AI Omnibus)"
+strand: "Targeted amendments to the AI Act 2024/1689: postponed high-risk application dates (Annex III -> 2 Dec 2027, Annex I -> 2 Aug 2028), new Art 5 nudifier/CSAM prohibition, Art 50(2) watermarking transition, registration & bias-data rules, SMC simplifications, Annex I sectoral interaction, AI Office powers; plus technical amendments to aviation Regulation 2018/1139"
 
 proposal:
-  id: "COM(2025) 837"                     # Commission proposal id (without "final")
+  id: "COM(2025) 836"                     # Commission proposal id (without "final")
   date: "2025-11-19"                      # ISO
-  swd: "SWD(2025) 836"                    # accompanying staff working doc, if any
-  celex: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837"
-  oeil: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)"
+  swd: "SWD(2025) 836"                    # accompanying staff working doc
+  celex: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0836"
+  oeil: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)"
 
 # Sibling file(s) that are easy to confuse with this one and must NOT be tracked
 # here. Drives the scope-guard text in CLAUDE.md/README and the skills' scope rule.
 keep_apart:
-  - file_id: "2025/0359 (COD)"
-    note: "AI-Act Digital Omnibus — a separate, faster file on the AI Act strand"
+  - file_id: "2025/0360 (COD)"
+    note: "Digital Omnibus (data/cyber) — COM(2025) 837, the GDPR/ePrivacy/NIS2 half of the same 19 Nov 2025 package; tracked in the sibling repo digital-omnibus-2025-0360 and on a slower, separate trajectory"
+# Also distinct: 2026/0138 (COD) CADA (cloud/AI industrial policy, tracked in
+# cada-2026-0138) and the package's non-legislative parts (European Business
+# Wallets proposal, Digital Fitness Check).
 
-legal_bases: ["Article 16(2) TFEU", "Article 114 TFEU"]
+legal_bases: ["Article 114 TFEU"]         # OLP per Article 294 TFEU
 
 # Existing laws this file amends/repeals. Drives docs/instruments/ pages.
 instruments:
-  - { name: "GDPR", celex: "2016/679" }
-  - { name: "ePrivacy Directive", celex: "2002/58" }
-  - { name: "NIS2 Directive", celex: "2022/2555" }
-  - { name: "P2B Regulation", celex: "2019/1150" }
+  - { name: "AI Act", celex: "2024/1689" }
+  - { name: "EASA Basic Regulation (aviation)", celex: "2018/1139" }
 
-# The per-version operative-text file set under extracts/. EACH compromise
-# version gets one file per slice, named ST-<nnnn>-<yyyy>_<slice>.md, so
-# `git diff` between versions lines up. For another file these slices differ —
-# they follow your file's article groupings, not these.
+# The per-version operative-text file set under extracts/. EACH text version
+# gets one file per slice so `git diff` between versions lines up.
+# This is an AMENDING act: Article 1 carries the AI Act amendments (points
+# (1)...(n)), Article 2 the aviation amendments. Slices are THEME-based,
+# grouping Article 1 points by the AI Act provisions they touch.
+# PROVISIONAL until verified against COM(2025) 836's actual point structure
+# during transcription of the Commission baseline.
 extract_slices:
-  - gdpr-art3-amendments
-  - eprivacy-art5
-  - cyber-art6-9
-  - final-art10-11
+  - ai-literacy-art4                 # Art 4 AI literacy (binding duty vs encouragement framework)
+  - prohibitions-art5                # new Art 5 ban: nudifier apps / AI-generated CSAM (EP+Council addition)
+  - bias-data-art4a                  # special-category data for bias detection ("strict necessity" standard)
+  - high-risk-classification-art6    # Art 6 + Annex I/III classification, "safety component" definition
+  - registration-art49-annexviii     # registration of self-assessed non-high-risk systems, Annex VIII Section B
+  - transparency-art50               # Art 50(2) watermarking transition + other transparency duties
+  - sandboxes-testing-art57          # regulatory sandboxes (deadline 2 Aug 2027), real-world testing
+  - governance-aioffice-art75        # AI Office exclusive powers (GPAI-built systems, VLOPs/VLOSEs), enforcement tools
+  - smc-simplifications              # SME reliefs extended to small mid-caps
+  - sectoral-annexi-interaction      # Annex I product law: machinery equivalence clause, delegated/implementing acts
+  - application-dates                # amended application/transition dates (Art 111/113 of the AI Act)
+  - aviation-reg-2018-1139           # Article 2 of the omnibus: Regulation (EU) 2018/1139 amendments
+  - final-provisions                 # entry into force, remaining horizontal points
   - recitals
-  # 2025/0360 also carries these informational cross-ref slices in some versions:
-  - dataact-art1
-  - sdg-art2
-  - eudpr-art4
 
 # OLP actor skeleton for STATUS.md "Where each institution stands".
 co_legislators:
   council:
-    config: "working party / Antici Group (Simplification)"
+    config: "Telecom Working Party; Cyprus presidency until 30 Jun 2026, Ireland from 1 Jul 2026"
   parliament:
-    committees_responsible: ["ITRE", "LIBE"]   # joint, Rule 59
-    committees_opinion: ["IMCO", "JURI"]
+    committees_responsible: ["IMCO", "LIBE"]   # joint, Rule 58, committee file CJ40/10/04577
+    committees_opinion: ["JURI", "CULT", "TRAN"]  # ITRE and BUDG gave no opinion
 
 # Advisory bodies that must be / have been consulted (drives the STATUS advisory table).
-advisory_bodies: ["EDPB-EDPS", "ECB", "EESC", "CoR"]
+advisory_bodies: ["EDPB-EDPS", "EESC", "ECB"]
 
 # ============================================================================
 # Watchlist — the sources the daily tracker monitors. Consumed by
 # .claude/skills/resolve-tracker-issue (tracker_issues.py joins each flagged
 # "[tracker]" issue to its `affects` list). The same mapping must be mirrored in
-# the cron prompt (~/law-tracker/prompt.md) — keep the two in sync.
+# the cron prompt (~/law-tracker/prompt-ai-omnibus.md) — keep the two in sync.
 #
-# This ships with a REPRESENTATIVE SUBSET of the 35 sources used for 2025/0360
-# (full list lived in the old data/watchlist.yaml). Replace with your file's
-# sources. Fields per source:
-#   tier        T1 (institutional) | T2 (stakeholder) | T3 (social)
-#   kind        institutional | stakeholder | social
-#   label       human-readable name (matches the issue body "**Source:**")
-#   url         watched URL (T1/T2); omitted for T3 (Bluesky uses handle/did)
-#   handle/did  Bluesky actor (T3 only)
-#   document_id optional join to data/documents.yaml (when the source IS a doc)
-#   affects     downstream files/dirs to review on a substantive hit
-#   notes       fetch quirks / scope rules
+# Stage note (June 2026): provisional political agreement reached 7 May 2026;
+# plenary 1st-reading vote indicatively 15 Jun 2026; Council formal adoption +
+# OJ publication expected before 2 Aug 2026. The imminent threshold events are
+# (1) the plenary vote / adopted TA text, (2) Council adoption, (3) OJ
+# publication with the final regulation number.
 # ============================================================================
 watchlist:
   sources:
@@ -92,62 +89,108 @@ watchlist:
     T1-01:
       tier: T1
       kind: institutional
-      label: "OEIL — Parliament procedure file (HTML)"
-      url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)"
-      document_id: OEIL-2025-0360
+      label: "OEIL — Parliament procedure file 2025/0359(COD) (HTML)"
+      url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)"
+      document_id: OEIL-2025-0359
       affects: [STATUS.md, TIMELINE.md]
+      notes: "PRIMARY watch: plenary vote (indicative 15 Jun 2026), adopted-text T-number, Council adoption, OJ reference all land here first."
+    T1-02:
+      tier: T1
+      kind: institutional
+      label: "EUR-Lex Cellar — Commission proposal (CELEX 52025PC0836)"
+      url: "https://publications.europa.eu/resource/celex/52025PC0836"
+      document_id: COM-2025-836
+      affects: [extracts/commission/, STATUS.md, TIMELINE.md]
+      notes: "Machine-readable fallback for AWS-WAF-blocked EUR-Lex pages. Base text rarely changes."
     T1-03:
       tier: T1
       kind: institutional
-      label: "EUR-Lex Cellar — Commission proposal (CELEX 52025PC0837)"
-      url: "https://publications.europa.eu/resource/celex/52025PC0837"
-      document_id: COM-2025-837
-      affects: [extracts/commission/, STATUS.md, TIMELINE.md]
-      notes: "Machine-readable fallback for AWS-WAF-blocked EUR-Lex pages. Base text rarely changes."
+      label: "EUR-Lex — procedure page 2025/359 (adoption + OJ publication)"
+      url: "https://eur-lex.europa.eu/procedure/EN/2025_359"
+      affects: [STATUS.md, TIMELINE.md]
+      notes: "EUR-Lex bot-blocks (202/WAF); prefer the Cellar endpoint T1-02 when this fails. Watch for the final regulation number (EU) 2026/xxxx and OJ link; entry into force = OJ + 3 days."
+    T1-04:
+      tier: T1
+      kind: institutional
+      label: "Council register — ST 9247/2026 (Coreper confirmation / future docs on the file)"
+      url: "https://data.consilium.europa.eu/doc/document/ST-9247-2026-INIT/en/pdf"
+      document_id: ST-9247-2026
+      affects: [extracts/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
+      notes: "Watch for the Council 1st-reading adoption docs (PE-CONS text, 'I/A' item note, voting result). LIMITE texts 404 on the live register — fall back to national-parliament records or press mirrors."
+    T1-05:
+      tier: T1
+      kind: institutional
+      label: "EP Legislative Train — Digital Omnibus on AI"
+      url: "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai"
+      affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+    T1-06:
+      tier: T1
+      kind: institutional
+      label: "Commission digital-strategy — Digital Omnibus on AI proposal library page"
+      url: "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal"
+      document_id: COM-2025-836
+      affects: [sources/, STATUS.md, docs/commission-proposal.md]
+    T1-07:
+      tier: T1
+      kind: institutional
+      label: "EP plenary documents — texts adopted feed (TA)"
+      url: "https://www.europarl.europa.eu/doceo/document/A-10-2026-0073_EN.html"
+      document_id: A10-0073-2026
+      affects: [STATUS.md, TIMELINE.md, extracts/]
+      notes: "Report page links forward to the plenary outcome; after the vote, register the adopted TA text and diff it against PE789.081."
+    T1-08:
+      tier: T1
+      kind: institutional
+      label: "EDPB — EDPB/EDPS Joint Opinion 1/2026 page"
+      url: "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-12026-proposal_en"
+      document_id: EDPB-EDPS-JO-1-2026
+      affects: [docs/advisory/, docs/institutional-positions.md]
     T1-09:
       tier: T1
       kind: institutional
-      label: "Austrian Parliament — EU dossier (hosts Council LIMITE texts)"
-      url: "https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322"
-      affects: [extracts/council/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
-      notes: "HIGHEST PRIORITY for new Council LIMITE compromise texts. A new ST version -> hand off to the transcribe-council-extract skill, then cascade through provisions/positions."
-    T1-13:
+      label: "AI Act implementation timeline (FLI tracker)"
+      url: "https://artificialintelligenceact.eu/implementation-timeline/"
+      affects: [STATUS.md, docs/provisions/]
+      notes: "Secondary-but-fast mirror of the amended application dates once the omnibus is adopted."
+    T1-10:
       tier: T1
       kind: institutional
-      label: "EDPB–EDPS Joint Opinion"
-      url: "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en"
-      document_id: EDPB-EDPS-JO-2-2026
-      affects: [docs/advisory/edpb-edps-jo-2-2026.md, docs/institutional-positions.md]
-    # --- Tier 2: NGO / journalism / law firm -------------------------------
+      label: "Officiële bekendmakingen — dossier 21501-33 (Telecomraad; NL Council positions)"
+      url: "https://zoek.officielebekendmakingen.nl/dossier/21501-33"
+      affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
       kind: stakeholder
-      label: "noyb — RSS"
-      url: "https://noyb.eu/en/rss"
+      label: "Tech Policy Press — feed"
+      url: "https://www.techpolicy.press/feed/"
       affects: [docs/stakeholders.md, docs/fault-lines.md]
     T2-02:
+      tier: T2
+      kind: stakeholder
+      label: "MediaLaws — Digital Omnibus Legislative Tracker"
+      url: "https://www.medialaws.eu/digital-omnibus-legislative-tracker/"
+      affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+      notes: "Covers both omnibus files — filter for the AI file 2025/0359 only."
+    T2-03:
       tier: T2
       kind: stakeholder
       label: "EDRi — feed"
       url: "https://edri.org/feed/"
       affects: [docs/stakeholders.md, docs/fault-lines.md]
-    # KEEP for any file: unlike the example sources above, this one is
-    # file-agnostic. Consilium's meeting/main-results pages serve a
-    # browser-check page to curl, so a tracker cannot poll Council outcomes
-    # directly — this feed mirrors them (e.g. TTE/Telecom Council "main
-    # results"). Filter on your file's keywords; treat a match on the lead
-    # Council formation as Tier-1-grade signal.
-    T2-03:
+    T2-04:
       tier: T2
       kind: stakeholder
       label: "INSIGHT EU MONITORING — RSS"
       url: "https://ieu-monitoring.com/feed/"
       affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
-    # --- Tier 3: Bluesky watchlist -----------------------------------------
-    T3-02:
-      tier: T3
-      kind: social
-      label: "Bluesky — noyb.eu"
-      handle: "noyb.eu"
-      did: "did:plc:6tig4nnvqut4jhyxmvqbxbag"
-      affects: [docs/stakeholders.md, docs/fault-lines.md]
+      notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results. Filter on AI Act / Digital Omnibus on AI / 2025/0359 keywords; the Council formal-adoption signal may surface here first."
+    T2-05:
+      tier: T2
+      kind: stakeholder
+      label: "IAPP — news feed"
+      url: "https://iapp.org/news/rss/"
+      affects: [docs/stakeholders.md, STATUS.md]
+      notes: "Consistent fast coverage of AI Act omnibus milestones."
+    # --- Tier 3: social ------------------------------------------------------
+    # none yet (candidates: Luca Bertuzzi / MLex on Bluesky)

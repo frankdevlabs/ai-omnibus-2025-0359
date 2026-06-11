@@ -1,12 +1,8 @@
 # Document register — the SINGLE source of truth for every official document on the file.
 # sources/README.md is its *rendered* table (edit this YAML, then mirror the table; never the table alone).
 #
-# TEMPLATE NOTE: the rows below are EXAMPLE entries from the reference file 2025/0360 (COD),
-# kept to show the schema and every field in use. Replace them with your file's documents
-# (use the `register-document` skill — it appends here and renders sources/README.md).
-#
 # Field reference:
-#   id            stable institutional id (COM-…, ST-…, WK-…, CM-…, OEIL-…, EDPB-EDPS-…, ECB-…, EESC-…)
+#   id            stable institutional id (COM-…, ST-…, PE-…, OEIL-…, EDPB-EDPS-…, CON-…, CES-…)
 #   title         quoted descriptive title
 #   body          institution: Commission | Council | Parliament | EDPB-EDPS | ECB | EESC | <Member State> | …
 #   date          ISO YYYY-MM-DD
@@ -21,50 +17,308 @@
 #   leading_service / mandatory_consultees / notes   prose context (notes is a `>-` block)
 
 documents:
-  - id: COM-2025-837
-    title: "Digital Omnibus — proposal for a Regulation (digital simplification: GDPR, ePrivacy, P2B, cyber)"
+  # --- Commission -----------------------------------------------------------
+  - id: COM-2025-836
+    title: "Digital Omnibus on AI — proposal for a Regulation amending Regulations (EU) 2024/1689 (AI Act) and (EU) 2018/1139 as regards the simplification of the implementation of harmonised rules on artificial intelligence"
     body: Commission
     date: 2025-11-19
     limite: false
-    url: https://eur-lex.europa.eu/procedure/EN/2025_360
-    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837
-    local: sources/commission/COM-2025-837_proposal_2025-11-19.docx
-    local_annex: sources/commission/COM-2025-837_annex1-correlation-tables_2025-11-19.docx
-    leading_service: "Lead service DG CNECT; political leads EVP Virkkunen and Commissioner McGrath."
-    mandatory_consultees: European Committee of the Regions, European Central Bank, European Economic and Social Committee
+    url: https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal
+    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0836
+    local: sources/commission/COM-2025-836_proposal_2025-11-19.pdf
+    leading_service: "Lead service DG CNECT; responsible Commissioner Valdis Dombrovskis."
+    mandatory_consultees: European Economic and Social Committee; European Central Bank consulted (CON/2026/10)
     notes: >-
-      EXAMPLE row. The proposal this reference repo tracks. Accompanied by SWD(2025) 836; base-text
-      operative extracts in extracts/commission/. Annex I = correlation tables.
+      The proposal this repo tracks — the AI half of the 19 Nov 2025 Digital Omnibus package
+      (the data/cyber half is COM(2025) 837, file 2025/0360 (COD), tracked in the sibling repo).
+      An AMENDING act: Article 1 amends the AI Act 2024/1689 (application-date postponements via a
+      conditional standards-availability mechanism, registration and bias-data easements, SME
+      reliefs, watermarking transition), Article 2 the aviation Regulation 2018/1139. Legal basis
+      Art 114 TFEU. Deliberately split off and fast-tracked because the AI Act high-risk
+      obligations would apply from 2 Aug 2026. Accompanied by SWD(2025) 836.
+      Digest: docs/commission-proposal.md; operative text: extracts/commission/.
 
-  - id: EDPB-EDPS-JO-2-2026
-    title: "EDPB–EDPS Joint Opinion 2/2026 on the Digital Omnibus"
-    body: EDPB-EDPS
-    date: 2026-02-10
+  - id: SWD-2025-836
+    title: "Staff working document accompanying the Digital Omnibus package"
+    body: Commission
+    date: 2025-11-19
     limite: false
-    url: https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en
-    local: sources/edpb-edps/EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf
+    url: https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal
+    local: sources/commission/SWD-2025-836_staff-working-document_2025-11-19.pdf
     notes: >-
-      EXAMPLE row (advisory-body opinion). Digest: docs/advisory/edpb-edps-jo-2-2026.md.
+      Accompanies both Digital Omnibus proposals (COM(2025) 836 and 837) — the same SWD number is
+      cited on both files.
 
-  - id: ST-9547-2026
-    title: "Presidency revised compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"
+  - id: IP-26-1024
+    title: "Press release — EU agrees to simplify AI rules to boost innovation and ban 'nudification' apps to protect citizens"
+    body: Commission
+    date: 2026-05-07
+    limite: false
+    url: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024
+    local: sources/commission/IP-26-1024_press-release-political-agreement_2026-05-07.pdf
+    notes: >-
+      Commission announcement of the 7 May 2026 provisional political agreement. Companion
+      releases: Council 299/26, EP 20260427IPR42011.
+
+  # --- Council ----------------------------------------------------------------
+  - id: ST-15708-2025
+    title: "Cover note — transmission of COM(2025) 836 final to the Council"
     body: Council
-    date: 2026-05-21
-    limite: true
-    access: public-via-national-parliament
-    register: https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf   # 404 until released
-    national_parliament: https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322
-    local: sources/council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf
-    notes: >-
-      EXAMPLE row (Council LIMITE compromise text). Operative text in extracts/council/ (the shipped
-      example set). Shows the LIMITE provenance fields (register + national_parliament + access).
-
-  - id: OEIL-2025-0360
-    title: "Procedure file 2025/0360(COD) — Simplification of the digital legislative framework"
-    body: Parliament
-    date: 2026-01-19
+    date: 2025-11-20
     limite: false
-    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)
+    url: https://data.consilium.europa.eu/doc/document/ST-15708-2025-INIT/en/pdf
+    local: sources/council/ST-15708-2025_transmission-proposal_2025-11-20.pdf
     notes: >-
-      EXAMPLE row (Parliament procedure file — link-only, no committed file). Joint committee
-      responsible (Rule 59): ITRE + LIBE; opinions JURI + IMCO.
+      Transmission of the Commission proposal to the Council (Interinstitutional File
+      2025/0359 (COD)); carries the full proposal text.
+
+  - id: ST-7322-2026
+    title: "Council negotiating mandate on the Digital Omnibus on AI"
+    body: Council
+    date: 2026-03-13
+    limite: false
+    url: https://data.consilium.europa.eu/doc/document/ST-7322-2026-INIT/en/pdf
+    local: sources/council/ST-7322-2026_council-mandate_2026-03-13.pdf
+    notes: >-
+      Mandate adopted 13 Mar 2026 (press release 189/26). Replaces the Commission's conditional
+      postponement mechanism with FIXED application dates, adds the nudifier/CSAM prohibition to
+      Art 5, restores the registration duty for self-assessed non-high-risk systems and the
+      "strict necessity" standard for special-category bias data.
+      Comparison: docs/institutional-positions.md.
+
+  - id: ST-8260-2026
+    title: "Working document — revised Council mandate for the informal technical meeting (ITM) of 16 April 2026"
+    body: Council
+    date: 2026-04-17
+    limite: true
+    register: https://data.consilium.europa.eu/doc/document/ST-8260-2026-INIT/en/pdf
+    local: sources/council/ST-8260-2026_revised-mandate-itm_2026-04-17.pdf
+    access: public-via-register
+    notes: >-
+      Trilogue-stage working document (LIMITE at the time; since downloadable from the register).
+      Reflects the Council's revised lines after the first technical trilogue round.
+
+  - id: ST-9034-2026
+    title: "Compromise text recording the negotiators' agreement of 6 May 2026"
+    body: Council
+    date: 2026-05-06
+    limite: true
+    register: https://data.consilium.europa.eu/doc/document/ST-9034-2026-INIT/en/pdf   # 404 until released
+    access: not-public
+    notes: >-
+      The document in which the Council recorded the 6 May 2026 compromise (publicly announced
+      7 May). Not yet released on the register; the substance is public via the consolidated
+      agreed text PE789.081 (committed under sources/parliament/).
+
+  - id: ST-9247-2026
+    title: "Coreper information note + letter to the Parliament confirming the provisional agreement"
+    body: Council
+    date: 2026-05-13
+    limite: false
+    url: https://data.consilium.europa.eu/doc/document/ST-9247-2026-INIT/en/pdf
+    local: sources/council/ST-9247-2026_coreper-confirmation-letter_2026-05-13.pdf
+    notes: >-
+      Coreper confirmation of the interinstitutional agreement (13 May 2026), with the letter to
+      the EP in view of a first-reading agreement. The EP-side counterpart letter is
+      GEDA/A/(2026)003414.
+
+  - id: COUNCIL-PRESS-189-26
+    title: "Council press release 189/26 — Council agrees position to streamline rules on artificial intelligence"
+    body: Council
+    date: 2026-03-13
+    limite: false
+    url: https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/council-agrees-position-to-streamline-rules-on-artificial-intelligence/
+    access: cite-only
+    notes: >-
+      Announces the Council mandate ST 7322/26. Cite-only (consilium press pages bot-block
+      automated clients).
+
+  - id: COUNCIL-PRESS-299-26
+    title: "Council press release 299/26 — Artificial intelligence: Council and Parliament agree to simplify and streamline rules"
+    body: Council
+    date: 2026-05-07
+    limite: false
+    url: https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/
+    access: cite-only
+    notes: >-
+      Announces the 7 May 2026 provisional political agreement; updated 18 May 2026 with the
+      presidency letter to the EP. Cite-only (consilium press pages bot-block automated clients).
+
+  # --- Parliament -------------------------------------------------------------
+  - id: OEIL-2025-0359
+    title: "Procedure file 2025/0359(COD) — Legislative Observatory"
+    body: Parliament
+    date: 2025-11-19
+    limite: false
+    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)
+    notes: >-
+      Link-only. Joint IMCO/LIBE (Rule 58, committee file CJ40/10/04577); rapporteurs Arba
+      Kokalari (EPP, SE) and Michael McNamara (Renew, IE), appointed 21 Jan 2026. Status per
+      10 Jun 2026: "Awaiting Parliament's position in 1st reading"; plenary indicatively
+      15 Jun 2026.
+
+  - id: PE-782530
+    title: "Draft report of the IMCO/LIBE co-rapporteurs (CJ40-PR-782530)"
+    body: Parliament
+    date: 2026-02-05
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/CJ40-PR-782530_EN.html
+    local: sources/parliament/PE-782530_draft-report_2026-02-05.pdf
+    notes: >-
+      Kokalari/McNamara draft report. Restores the Art 4 AI-literacy obligation on
+      providers/deployers (lowered to "supporting the improvement"), keeps registration, shortens
+      the watermarking grace period. Amendment deadline 12 Feb 2026.
+
+  - id: PE-784274
+    title: "Committee-stage amendments (CJ40-AM-784274)"
+    body: Parliament
+    date: 2026-02-14
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/CJ40-AM-784274_EN.html
+    access: cite-only
+    notes: >-
+      Tabled to the draft report (with PE784.275 and PE784.309). PDF not retrievable from RegData
+      at registration time — cited via doceo.
+
+  - id: PE-784275
+    title: "Committee-stage amendments (CJ40-AM-784275)"
+    body: Parliament
+    date: 2026-02-14
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/CJ40-AM-784275_EN.html
+    access: cite-only
+
+  - id: PE-784309
+    title: "Committee-stage amendments (CJ40-AM-784309)"
+    body: Parliament
+    date: 2026-02-14
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/CJ40-AM-784309_EN.html
+    access: cite-only
+
+  - id: PE-784179
+    title: "JURI opinion (rapporteur Lagodinsky)"
+    body: Parliament
+    date: 2026-02-26
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/JURI-AD-784179_EN.html
+    local: sources/parliament/PE-784179_juri-opinion_2026-02-26.pdf
+
+  - id: PE-784261
+    title: "CULT opinion (rapporteur Rafowicz)"
+    body: Parliament
+    date: 2026-03-06
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/CULT-AD-784261_EN.html
+    local: sources/parliament/PE-784261_cult-opinion_2026-03-06.pdf
+
+  - id: PE-785326
+    title: "TRAN opinion (rapporteur Costanzo)"
+    body: Parliament
+    date: 2026-03-18
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/TRAN-AD-785326_EN.html
+    access: cite-only
+    notes: >-
+      Adopted the day the joint IMCO/LIBE report was voted; annexed to A10-0073/2026. PDF not
+      retrievable from RegData at registration time — cited via doceo.
+
+  - id: A10-0073-2026
+    title: "Joint IMCO/LIBE report on the Digital Omnibus on AI proposal"
+    body: Parliament
+    date: 2026-03-19
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/A-10-2026-0073_EN.html
+    local: sources/parliament/A10-0073-2026_imco-libe-report_2026-03-19.pdf
+    notes: >-
+      Adopted in joint committee 18 Mar 2026, tabled for plenary 19 Mar 2026. Carries the EP
+      negotiating position incl. the committee-stage compromises and the annexed JURI/CULT/TRAN
+      opinions (141 pp).
+
+  - id: T10-0098-2026
+    title: "EP first-reading negotiating position (texts adopted, 26 March 2026)"
+    body: Parliament
+    date: 2026-03-26
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/TA-10-2026-0098_EN.html
+    local: sources/parliament/T10-0098-2026_ep-first-reading-position_2026-03-26.pdf
+    notes: >-
+      Adopted 569 / 45 / 23; matter referred back to committee for interinstitutional
+      negotiations (first "handshake" trilogue the same day).
+
+  - id: PE-789081
+    title: "Provisional agreement resulting from interinstitutional negotiations (consolidated text, CJ40_AG(2026)789081)"
+    body: Parliament
+    date: 2026-05-13
+    limite: false
+    url: https://www.europarl.europa.eu/RegData/commissions/imco/inag/2026/05-13/CJ40_AG(2026)789081_EN.pdf
+    local: sources/parliament/PE-789081_consolidated-agreed-text_2026-05-13.pdf
+    notes: >-
+      THE consolidated politically-agreed text (44 pp), approved in IMCO/LIBE 2 Jun 2026 under
+      Rule 75(4). Pending legal-linguistic revision and the plenary vote — wording may still
+      change. Operative text: extracts/agreed/.
+
+  - id: GEDA-A-2026-003414
+    title: "Coreper letter confirming the interinstitutional agreement (EP record)"
+    body: Parliament
+    date: 2026-05-13
+    limite: false
+    url: https://www.europarl.europa.eu/RegData/commissions/imco/lcag/2026/05-13/CJ40_LA(2026)003414_EN.pdf
+    local: sources/parliament/GEDA-A-2026-003414_coreper-letter_2026-05-13.pdf
+
+  - id: EP-PRESS-20260427IPR42011
+    title: "EP press release — AI Act: deal on simplification measures, ban on 'nudifier' apps"
+    body: Parliament
+    date: 2026-05-07
+    limite: false
+    url: https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/ai-act-deal-on-simplification-measures-ban-on-nudifier-apps
+    notes: >-
+      Link-only. Quotes co-rapporteur McNamara on the nudification/CSAM ban as "a key part of the
+      Parliament's mandate".
+
+  - id: EPRS-BRI-2026-782651
+    title: "EPRS briefing — Digital Omnibus on AI (PE 782.651)"
+    body: Parliament
+    date: 2026-02-01
+    limite: false
+    url: https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2026)782651
+    local: sources/parliament/EPRS-BRI-2026-782651_ai-omnibus-briefing.pdf
+    notes: >-
+      EU-Legislation-in-Progress briefing (12 pp); neutral overview of the proposal and the
+      institutional positions.
+
+  # --- Advisory bodies ---------------------------------------------------------
+  - id: EDPB-EDPS-JO-1-2026
+    title: "EDPB–EDPS Joint Opinion 1/2026 on the Digital Omnibus proposals"
+    body: EDPB-EDPS
+    date: 2026-01-20
+    limite: false
+    url: https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-12026-proposal_en
+    local: sources/edpb-edps/EDPB-EDPS-JO-1-2026_joint-opinion_2026-01-20.pdf
+    notes: >-
+      Adopted 20 Jan 2026, published 21 Jan. Supports simplification but warns against weakening
+      fundamental-rights safeguards: keep "strict necessity" for special-category bias data, keep
+      the registration duty (dropping it would give providers "an undesirable incentive ... to
+      unduly invoke this exemption"), and minimise any timeline delay. Largely followed by Council
+      and EP. Digest: docs/advisory/edpb-edps-jo-1-2026.md.
+
+  - id: CON-2026-0010
+    title: "ECB opinion CON/2026/10 on the Digital Omnibus on AI proposal"
+    body: ECB
+    date: 2026-03-13
+    limite: false
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026AB0010
+    local: sources/advisory/CON-2026-0010_ecb-opinion_2026-03-13.pdf
+    notes: >-
+      Published OJ C/2026/2285 of 15 Apr 2026. Digest: docs/advisory/ecb-con-2026-10.md.
+
+  - id: CES-3929-2025
+    title: "EESC opinion on the Digital Omnibus on AI (CES3929/2025)"
+    body: EESC
+    date: 2026-03-18
+    limite: false
+    url: https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions
+    access: cite-only
+    notes: >-
+      Mandatory consultation; opinion adopted 18 Mar 2026. No stable public PDF link found at
+      registration time — cited by document number. Digest: docs/advisory/eesc-ces-3929-2025.md.
