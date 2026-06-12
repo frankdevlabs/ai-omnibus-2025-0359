@@ -58,7 +58,7 @@ obligations would otherwise start applying.
 ## Next milestones to watch
 
 - [ ] **EP plenary 1st-reading vote** — indicatively 15 Jun 2026 (forecast, not yet confirmed); watch for the adopted-text T-number and any divergence from PE789.081
-- [ ] **Council formal adoption** — expected "in the coming weeks", before the presidency handover to Ireland (1 Jul 2026)
+- [ ] **Council formal adoption** — expected "in the coming weeks", before the presidency handover to Ireland (1 Jul 2026). The 9 Jun 2026 Telecom Council recapped the May agreement but did **not** take up formal adoption — adoption still pending ([TIMELINE](TIMELINE.md))
 - [ ] **OJ publication** — registers the final regulation number (EU) 2026/xxxx; entry into force 3 days after publication; targeted before 2 Aug 2026
 - [ ] **Threshold risk:** if the plenary slips past mid-July 2026, adoption before 2 Aug 2026 is at risk — the original AI Act timeline (Annex III high-risk from 2 Aug 2026) would then formally bite; flag this scenario immediately
 - [ ] **Watch-item:** legal-linguistic revision may still touch drafting defects flagged in the [agreed-text extracts](extracts/agreed/) (e.g. the missing Article 75b that Art 75d cites, Art 4a paragraph numbering); re-verify Art 4 and the machinery equivalence clause against the adopted text

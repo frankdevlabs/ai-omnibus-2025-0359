@@ -35,6 +35,7 @@
 | 2026-05-13 | **Coreper confirms the agreement** (ST 9247/26 + letter GEDA/A/(2026)003414); consolidated agreed text **PE789.081** issued | [register](sources/README.md) · [agreed-text extracts](extracts/agreed/) |
 | 2026-05-18 | Council press release 299/26 updated with the presidency letter to the EP (first-reading agreement) | [register](sources/README.md) |
 | 2026-06-02 | **IMCO/LIBE approve the negotiated text in committee** (Rule 75(4)), referring to PE789.081 and GEDA/A/(2026)003414 | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
+| 2026-06-09 | EU **Telecommunications Council** (Cyprus presidency main-results): presidency publicly recaps "the May agreement on the AI act and Omnibus … enhanced child protection against AI risks" (the new Art 5 nudifier/CSAM ban). **Confirmatory only** — the file was not on the agenda; **no formal adoption of 2025/0359** (the meeting's substantive items were the Business Wallets, Digital Networks Act and Cybersecurity Act 2) | [IEU Monitoring](https://ieu-monitoring.com/editorial/main-results-of-the-eu-telecommunications-council-on-9-june-2026/1243080/) |
 
 ### Upcoming (indicative — not yet happened)
 
