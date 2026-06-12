@@ -15,7 +15,9 @@
 - **Delay vs deregulation.** Civil society (EDRi, noyb, BEUC, CDT) and the EDPB/EDPS accepted
   simplification rhetoric but fought the substantive easements (registration, "strict necessity",
   Art 4). Most of those easements were reversed; the *delay itself* (Annex III to Dec 2027) went
-  through against the EDPB/EDPS preference to keep the timeline.
+  through against the EDPB/EDPS preference to keep the timeline. Post-deal (11 Jun 2026), EDRi,
+  Access Now, ECNL and Amnesty International issued a joint statement urging the Parliament to
+  **reject** the deal at the 15 Jun plenary as a "rollback of AI safeguards".
   → [`stakeholders.md`](stakeholders.md) · [`advisory/edpb-edps-jo-1-2026.md`](advisory/edpb-edps-jo-1-2026.md)
 
 - **The nudifier/CSAM ban — Parliament's price.** Not in the Commission proposal; added by Council
