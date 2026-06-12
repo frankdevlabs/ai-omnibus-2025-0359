@@ -29,6 +29,13 @@ EDPB/EDPS asks; the delay itself and the machinery carve-out went through over t
 - **Tech Policy Press** — running analyses of the omnibus deal (watchlist T2-01); **Covington
   Global Policy Watch** (T2-05); **IAPP** and **NicFab** coverage (no curl-fetchable feed — cite
   manually).
+- **Covington — Global Policy Watch (T2-05)** — ["EU AI Act Update: the European Commission publishes
+  draft guidelines on HRAIs"](https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-the-european-commission-publishes-draft-guidelines-on-hrais/)
+  (11 Jun 2026): analyses the Commission's **19 May 2026 draft, non-binding guidelines** on classifying
+  high-risk AI systems (Annex I / Annex III; public consultation to 23 Jun 2026), explicitly framed
+  against this file's postponement of the HRAI application dates (Annex III → 2 Dec 2027, Annex I →
+  2 Aug 2028 — see [`docs/what-changed.md`](what-changed.md)). The guidelines are a separate AI Act
+  implementation deliverable, but their practical bite depends on the omnibus delay.
 - **Law-firm coverage** (consistent on the core dates; the consolidated text remains the only
   authoritative source): Bird & Bird, Gibson Dunn, White & Case ("expected before 2 August 2026 …
   enter into force three days later"), Hogan Lovells, Taylor Wessing, Travers Smith, Matheson,
