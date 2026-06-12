@@ -5,53 +5,55 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-06-11T15:16:00Z
+last_run: 2026-06-12T13:15:00Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:a6daef4c284e295432f2069fde766dabce5040ca1ea657713f6574f02f5f44bb"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_hash: "sha256:87ad1b6512d3439329d82990492eddb6bab8cc075ea4100286c2674d6c8b66f0"
+    last_seen_at: 2026-06-12T13:15:00Z
   T1-02:
-    last_seen_hash: "sha256:f253751ff3b69eb8e5a602d7bedec51f9aaeebeac957b8f1bbff6632cf923488"
-    last_seen_at: 2026-06-11T15:16:00Z
-  # T1-03: AWS-WAF challenge page (unreachable-by-design); hash frozen — rely on T1-01/T1-02
+    last_seen_hash: "sha256:8780fe0a7fbd600acfa4ab94a70e67546030355448058c8b4cc68cb454078fae"
+    last_seen_at: 2026-06-12T13:15:00Z
+  # T1-03: was AWS-WAF challenge (frozen); reachable this run, re-baselined — still
+  # serving the COM(2025) 836 procedure only (no final reg number / OJ link yet)
   T1-03:
-    last_seen_hash: "sha256:607611e328c1ea58cdd7ab4c45b053e45847c64a76b5af4025fb90df7a0aa2ef"
-    last_seen_at: 2026-06-11T06:23:11Z
+    last_seen_hash: "sha256:8fd300527d37e6a9703cd4ed371444488164dcc79b990c38f8e87fdbf6c0c436"
+    last_seen_at: 2026-06-12T13:15:00Z
   T1-04:
     last_seen_hash: "sha256:40c4d5719f2b3ba614092c56307132a99cb5676572e59b75ebd2a21523f83e98"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_at: 2026-06-12T13:15:00Z
   T1-05:
-    last_seen_hash: "sha256:269ede95ad7bb8ae3482923c4056d473bc05910dcc85c640d0013b02d073378b"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_hash: "sha256:565fe955108b8eb0c7c6015627ba842c4c4cf6ff620fdf2e522754fc2520f7df"
+    last_seen_at: 2026-06-12T13:15:00Z
   T1-06:
-    last_seen_hash: "sha256:dc5d0e02a94e164d6d4aa2360fc8b61359cf812eed9629bba6025cd3f4dcad04"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_hash: "sha256:494ffe612cd3731f437ed62fa733262b3960954e7a46a1f4f43049b9278af667"
+    last_seen_at: 2026-06-12T13:15:00Z
   # T1-07: AWS-WAF challenge page (doceo 202); hash frozen — rely on T1-01
   T1-07:
     last_seen_hash: "sha256:48c50f84029022705d565bd9582319997e623c868c0679f3560f6c57d9e4e3ba"
     last_seen_at: 2026-06-11T06:23:11Z
   T1-08:
-    last_seen_hash: "sha256:b8dc5f74778ccc2d8caa71286db8ef74a0ad77fb1adf7228da09a49f3a79ccf2"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_hash: "sha256:493e9c56a3ac6cc36dd7b80595721b09eb4ed20211a77417f6f484ca6cc4f62d"
+    last_seen_at: 2026-06-12T13:15:00Z
   T1-09:
     last_seen_hash: "sha256:8cc65a65a69bf9be588cdb39c85c00cfa703b99cd6cd9ad1fe046bbfa2ca9b24"
-    last_seen_at: 2026-06-11T15:16:00Z
-  # T1-10: SSL cert verification failure this run (transient); hash frozen
+    last_seen_at: 2026-06-12T13:15:00Z
+  # T1-10: was SSL-cert failure (frozen); reachable this run, re-baselined — no
+  # in-scope (AI-file) item in the Telecomraad dossier listing
   T1-10:
-    last_seen_hash: "sha256:bd46f1f900694d46fdbab3d26a8d8d1dcd8b745915d3f802ceb4c6ef1b5534ae"
-    last_seen_at: 2026-06-11T06:23:11Z
+    last_seen_hash: "sha256:f2f686752c870c40f268476ef2dbcded90b46df11d3e962de028203333ab2041"
+    last_seen_at: 2026-06-12T13:15:00Z
   T2-01:
     last_seen_hash: "sha256:69eae95fb3c0dc8c9bf05ca8ea183014104ab5fe476f784a6ac3c245d7044f01"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_at: 2026-06-12T13:15:00Z
   T2-02:
     last_seen_hash: "sha256:3c391debf26522172493bc83e8c51e32da5ab5a02bafe385babc99e4430dad96"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_at: 2026-06-12T13:15:00Z
   T2-03:
     last_seen_hash: "sha256:17e50a7740c731140bde289208dc78b97978c97a86a25fe05bff072813ad847b"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_at: 2026-06-12T13:15:00Z
   T2-04:
-    last_seen_hash: "sha256:63c0b8cb12cab9dda6bdb2c69a3873926ceb6f0e4c001d86df6e346700d04367"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_hash: "sha256:6f79e2b2267e80c45ab4ac65024c506b38bbcedeb5a40dc8a5498d2e7cf4219c"
+    last_seen_at: 2026-06-12T13:15:00Z
   T2-05:
-    last_seen_hash: "sha256:19454c5a5daa224c3aed95d4aed6a5f834bcfd426f28af5cba0fb07f6f0287cf"
-    last_seen_at: 2026-06-11T15:16:00Z
+    last_seen_hash: "sha256:1d3abb368648e80b6bf9bdb4b27692932e4a61a4af7f87dc106ac16fe9b31150"
+    last_seen_at: 2026-06-12T13:15:00Z
