@@ -158,6 +158,17 @@ watchlist:
       label: "Officiële bekendmakingen — dossier 21501-33 (Telecomraad; NL Council positions)"
       url: "https://zoek.officielebekendmakingen.nl/dossier/21501-33"
       affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    T1-11:
+      tier: T1
+      kind: institutional
+      label: "officielebekendmakingen.nl — Kamervragen (vragen + Aanhangsel) AI-Omnibus"
+      url: "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(((w.publicatienaam==%22Kamervragen+(Aanhangsel)%22)or(w.publicatienaam==%22Kamervragen+zonder+antwoord%22)))and((cql.textAndIndexes=%22omnibus%22)and((cql.textAndIndexes=%22kunstmatige%22)or(cql.textAndIndexes=%22AI-verordening%22)or(cql.textAndIndexes=%22AI-Act%22)))&svel=Publicatiedatum&svol=Aflopend"
+      affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+      notes: >-
+        RSS, newest-first. Tweede Kamer Kamervragen on the AI-Act Omnibus (AI-verordening simplification):
+        kv-tk-… = question, ah-tk-… = Aanhangsel answer. Niche feed. Dutch-language scope rule: in-scope ONLY
+        if the item concerns the AI-Act file 2025/0359, NOT solely the data-protection Omnibus 2025/0360.
+        As of Jun 2026 no Kamervraag specifically targets 2025/0359. Filter on the <description> line.
     # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
