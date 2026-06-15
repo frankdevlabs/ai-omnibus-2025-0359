@@ -5,55 +5,74 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-06-12T13:15:00Z
+last_run: 2026-06-15T13:22:54Z
 sources:
+  # T1-01: OEIL body changed — plenary-vote forecast slipped to 16/06/2026
+  # (was 15 Jun); committee approval of agreed text PE789.081 (02/06) confirmed.
+  # Issue #10 opened. Threshold vote/adopted-text still pending.
   T1-01:
-    last_seen_hash: "sha256:87ad1b6512d3439329d82990492eddb6bab8cc075ea4100286c2674d6c8b66f0"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_hash: "sha256:d941412305d403175d690a93978a43d254aee68bf867a33fa0b9b91471e84859"
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T1-02: Cellar notice hash drifted (metadata only — still the COM(2025) 836
+  # proposal notice, no new CELEX/OJ reference). Re-baselined, no issue.
   T1-02:
-    last_seen_hash: "sha256:8780fe0a7fbd600acfa4ab94a70e67546030355448058c8b4cc68cb454078fae"
-    last_seen_at: 2026-06-12T13:15:00Z
-  # T1-03: was AWS-WAF challenge (frozen); reachable this run, re-baselined — still
-  # serving the COM(2025) 836 procedure only (no final reg number / OJ link yet)
+    last_seen_hash: "sha256:f253751ff3b69eb8e5a602d7bedec51f9aaeebeac957b8f1bbff6632cf923488"
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T1-03: AWS-WAF challenge (HTTP 202) again this run — unreachable-by-design,
+  # hash frozen at last good capture (rely on T1-01/T1-02).
   T1-03:
     last_seen_hash: "sha256:8fd300527d37e6a9703cd4ed371444488164dcc79b990c38f8e87fdbf6c0c436"
     last_seen_at: 2026-06-12T13:15:00Z
   T1-04:
     last_seen_hash: "sha256:40c4d5719f2b3ba614092c56307132a99cb5676572e59b75ebd2a21523f83e98"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T1-05: body hash drifted but "As of 22/05/2026" footer + "Close to adoption"
+  # status unchanged — page chrome, no new AI-file substance. Re-baselined.
   T1-05:
-    last_seen_hash: "sha256:565fe955108b8eb0c7c6015627ba842c4c4cf6ff620fdf2e522754fc2520f7df"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_hash: "sha256:a667c641f5b535ec352595e1502737d85bc10435af1d2c1a75dbd068f4df657b"
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T1-06: "Last update 19 January 2026" unchanged — chrome drift, no new doc.
   T1-06:
-    last_seen_hash: "sha256:494ffe612cd3731f437ed62fa733262b3960954e7a46a1f4f43049b9278af667"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_hash: "sha256:fc5c0b5a6139bf14530265509023edb0ab828a87f453ddab7411d48a2e4bc5f7"
+    last_seen_at: 2026-06-15T13:22:54Z
   # T1-07: AWS-WAF challenge page (doceo 202); hash frozen — rely on T1-01
   T1-07:
     last_seen_hash: "sha256:48c50f84029022705d565bd9582319997e623c868c0679f3560f6c57d9e4e3ba"
     last_seen_at: 2026-06-11T06:23:11Z
+  # T1-08: EDPB-EDPS Joint opinion 1/2026 still dated 21 Jan 2026 — chrome drift.
   T1-08:
-    last_seen_hash: "sha256:493e9c56a3ac6cc36dd7b80595721b09eb4ed20211a77417f6f484ca6cc4f62d"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_hash: "sha256:479176d3171268b318810a7fcad6042e00c882cf32f08df5fc07961283bd09c8"
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T1-09: timeline still shows base AI Act dates only (no omnibus-amended
+  # 2 Dec 2027 / 2 Aug 2028 entries yet) — chrome drift, re-baselined.
   T1-09:
-    last_seen_hash: "sha256:8cc65a65a69bf9be588cdb39c85c00cfa703b99cd6cd9ad1fe046bbfa2ca9b24"
-    last_seen_at: 2026-06-12T13:15:00Z
-  # T1-10: was SSL-cert failure (frozen); reachable this run, re-baselined — no
-  # in-scope (AI-file) item in the Telecomraad dossier listing
+    last_seen_hash: "sha256:7750c6c2d7878fc65e65d544c55e638eead122715947837d968e419dcbca4752"
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T1-10: dossier listing changed but no in-scope (AI-file) item — re-baselined.
   T1-10:
-    last_seen_hash: "sha256:f2f686752c870c40f268476ef2dbcded90b46df11d3e962de028203333ab2041"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_hash: "sha256:c66c942304cdb10bb9bd1579ccfc5cde36f9142f7305935a596195a7e7a16b56"
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T1-11: newly-added Kamervragen RSS — first successful poll, silent baseline
+  # (no issue on first poll). Current items are ah-tk-* answers only.
+  T1-11:
+    last_seen_hash: "sha256:28fe6edb3713a7e5d7be95a09e3363aece40e11883c01ba2276020393837804e"
+    last_seen_at: 2026-06-15T13:22:54Z
   T2-01:
     last_seen_hash: "sha256:69eae95fb3c0dc8c9bf05ca8ea183014104ab5fe476f784a6ac3c245d7044f01"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T2-02: medialaws tracker still "Last updated: 3 June 2026" — chrome drift.
   T2-02:
-    last_seen_hash: "sha256:3c391debf26522172493bc83e8c51e32da5ab5a02bafe385babc99e4430dad96"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_hash: "sha256:152545bf67a47c8d818438e84a60f61f821b635f1db3c4c73ff213b952d3e961"
+    last_seen_at: 2026-06-15T13:22:54Z
   T2-03:
     last_seen_hash: "sha256:17e50a7740c731140bde289208dc78b97978c97a86a25fe05bff072813ad847b"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_at: 2026-06-15T13:22:54Z
+  # T2-04: feed changed; only title match was the 9 Jun Telecom Council, whose
+  # results are cyber-only (business wallets, DNA, Cybersecurity Act 2, ENISA) —
+  # out of scope for 2025/0359. No hit; re-baselined.
   T2-04:
-    last_seen_hash: "sha256:6f79e2b2267e80c45ab4ac65024c506b38bbcedeb5a40dc8a5498d2e7cf4219c"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_hash: "sha256:a92f5dc48f5d09e2de9f4d61afe1b29691f116f8e6cce94622318fc46c2343bc"
+    last_seen_at: 2026-06-15T13:22:54Z
   T2-05:
     last_seen_hash: "sha256:1d3abb368648e80b6bf9bdb4b27692932e4a61a4af7f87dc106ac16fe9b31150"
-    last_seen_at: 2026-06-12T13:15:00Z
+    last_seen_at: 2026-06-15T13:22:54Z
