@@ -41,6 +41,6 @@
 
 | Date | Event | Source |
 |---|---|---|
-| 2026-06-15 | *Indicative* plenary sitting — EP 1st-reading vote (forecast; not held as of 10 Jun 2026) | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
+| 2026-06-16 | *Indicative* plenary sitting — EP 1st-reading vote (forecast slipped from 15 Jun; not held as of 15 Jun 2026) | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 | before 2026-07-01 | Council formal adoption expected under the Cypriot presidency (Ireland takes over 1 Jul) | `STATUS.md` |
 | before 2026-08-02 | OJ publication targeted; entry into force 3 days later — before the AI Act high-risk obligations would have applied | `STATUS.md` |
