@@ -169,6 +169,43 @@ watchlist:
         kv-tk-… = question, ah-tk-… = Aanhangsel answer. Niche feed. Dutch-language scope rule: in-scope ONLY
         if the item concerns the AI-Act file 2025/0359, NOT solely the data-protection Omnibus 2025/0360.
         As of Jun 2026 no Kamervraag specifically targets 2025/0359. Filter on the <description> line.
+    T1-12:
+      tier: T1
+      kind: institutional
+      label: "EP IMCO committee — documents (joint lead; draft reports / tabled amendments)"
+      url: "https://www.europarl.europa.eu/committees/en/imco/documents/latest-documents"
+      affects: [extracts/parliament/, docs/provisions/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+      notes: >-
+        IMCO is joint lead (joint IMCO/LIBE; co-rapporteur Arba Kokalari, EPP/SE). A draft report / tabled
+        amendments → parliament-text playbook → hand off to transcribe-parliament-extract. Confirm the
+        document concerns THIS file 2025/0359 (the AI-Act Omnibus), NOT the sibling data-file 2025/0360,
+        on the doc itself (not the listing summary). doceo bot-blocks the PDF/DOCX (HTTP 202/WAF): the
+        listing confirms metadata; operative text needs a browser download or non-WAF mirror.
+    T1-13:
+      tier: T1
+      kind: institutional
+      label: "EP LIBE committee — documents (joint lead; draft reports / tabled amendments)"
+      url: "https://www.europarl.europa.eu/committees/en/libe/documents/latest-documents"
+      affects: [extracts/parliament/, docs/provisions/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+      notes: >-
+        LIBE is joint lead (joint IMCO/LIBE; co-rapporteur Michael McNamara, Renew/IE). A draft report /
+        tabled amendments → parliament-text playbook → hand off to transcribe-parliament-extract. Confirm
+        the document concerns THIS file 2025/0359 (the AI-Act Omnibus), NOT the sibling data-file
+        2025/0360, on the doc itself (not the listing summary). doceo bot-blocks the PDF/DOCX (HTTP
+        202/WAF): the listing confirms metadata; operative text needs a browser download or non-WAF mirror.
+    T1-14:
+      tier: T1
+      kind: institutional
+      label: "EP JURI committee — documents (opinion; draft opinions / amendments)"
+      url: "https://www.europarl.europa.eu/committees/en/juri/documents/latest-documents"
+      affects: [extracts/parliament/, docs/provisions/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+      notes: >-
+        JURI is the opinion-giving committee on this file. A draft opinion / tabled amendments →
+        parliament-text playbook → hand off to transcribe-parliament-extract. Confirm the document
+        concerns THIS file 2025/0359 (the AI-Act Omnibus), NOT the sibling data-file 2025/0360, on the
+        doc itself (not the listing summary; the same JURI page also lists 2025/0360 draft opinions).
+        doceo bot-blocks the PDF/DOCX (HTTP 202/WAF): the listing confirms metadata; operative text needs
+        a browser download or non-WAF mirror.
     # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
