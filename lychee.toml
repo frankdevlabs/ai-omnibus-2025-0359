@@ -15,4 +15,5 @@ exclude = [
   "^https://www\\.consilium\\.europa\\.eu",    # browser-check page blocks automated clients (press releases cited by number)
   "^https://iapp\\.org",                       # bot-blocks automated clients
   "^https://zoek\\.officielebekendmakingen\\.nl",  # bot-sensitive NL register/RSS (cited by query/dossier)
+  "^https://ieu-monitoring\\.com",             # T2 editorial host — slow/bot-sensitive, times out (cited by URL)
 ]
