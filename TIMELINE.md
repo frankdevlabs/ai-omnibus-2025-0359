@@ -36,11 +36,12 @@
 | 2026-05-18 | Council press release 299/26 updated with the presidency letter to the EP (first-reading agreement) | [register](sources/README.md) |
 | 2026-06-02 | **IMCO/LIBE approve the negotiated text in committee** (Rule 75(4)), referring to PE789.081 and GEDA/A/(2026)003414 | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 | 2026-06-09 | EU **Telecommunications Council** (Cyprus presidency main-results): presidency publicly recaps "the May agreement on the AI act and Omnibus … enhanced child protection against AI risks" (the new Art 5 nudifier/CSAM ban). **Confirmatory only** — the file was not on the agenda; **no formal adoption of 2025/0359** (the meeting's substantive items were the Business Wallets, Digital Networks Act and Cybersecurity Act 2) | [IEU Monitoring](https://ieu-monitoring.com/editorial/main-results-of-the-eu-telecommunications-council-on-9-june-2026/1243080/) |
+| 2026-06-15 | **Debate in Parliament** in the Strasbourg part-session (CRE-10-2026-06-15), ahead of the 1st-reading vote | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
+| 2026-06-16 | **EP adopts its 1st-reading text** (**T10-0198/2026**) — plenary adoption of the agreed text PE789.081, carried **423/57/174** (Am 118, roll-call; "Results of votes" PE 789.800). Procedure stage advances to **"Awaiting Council's 1st reading position"**. Distinct from the 26/03 negotiating-position vote T10-0098/2026 | [register](sources/README.md) · [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) · [agreed-text extracts](extracts/agreed/) |
 
 ### Upcoming (indicative — not yet happened)
 
 | Date | Event | Source |
 |---|---|---|
-| 2026-06-15/18 | *Indicative* plenary window — EP 1st-reading vote during the Strasbourg part-session (15–18 Jun 2026). Oeil's indicative **16 Jun** forecast (issue #10) was **withdrawn on 16 Jun** with no replacement date; vote not recorded as of 16 Jun 2026 | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 | before 2026-07-01 | Council formal adoption expected under the Cypriot presidency (Ireland takes over 1 Jul) | `STATUS.md` |
 | before 2026-08-02 | OJ publication targeted; entry into force 3 days later — before the AI Act high-risk obligations would have applied | `STATUS.md` |

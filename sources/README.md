@@ -43,6 +43,8 @@
 | `PE-785326` | TRAN opinion (Costanzo) | 2026-03-18 | cite-only | [doceo](https://www.europarl.europa.eu/doceo/document/TRAN-AD-785326_EN.html) |
 | `A10-0073-2026` | Joint IMCO/LIBE report | 2026-03-19 | `sources/parliament/` | [doceo](https://www.europarl.europa.eu/doceo/document/A-10-2026-0073_EN.html) |
 | `T10-0098-2026` | EP first-reading negotiating position (569/45/23) | 2026-03-26 | `sources/parliament/` | [doceo](https://www.europarl.europa.eu/doceo/document/TA-10-2026-0098_EN.html) |
+| `T10-0198-2026` | **EP first-reading text adopted in plenary** (plenary adoption of PE789.081, 423/57/174) | 2026-06-16 | `sources/parliament/` | [doceo](https://www.europarl.europa.eu/doceo/document/TA-10-2026-0198_EN.html) |
+| `PE-789800` | Results of votes — 16 Jun 2026 sitting (item 9: provisional agreement adopted 423/57/174) | 2026-06-16 | `sources/parliament/` | [doceo](https://www.europarl.europa.eu/doceo/document/PV-10-2026-06-16-VOT_EN.html?item=9) |
 | `PE-789081` | **Provisional agreement — consolidated text** | 2026-05-13 | `sources/parliament/` | [EP RegData](https://www.europarl.europa.eu/RegData/commissions/imco/inag/2026/05-13/CJ40_AG(2026)789081_EN.pdf) |
 | `GEDA-A-2026-003414` | Coreper letter confirming the agreement (EP record) | 2026-05-13 | `sources/parliament/` | [EP RegData](https://www.europarl.europa.eu/RegData/commissions/imco/lcag/2026/05-13/CJ40_LA(2026)003414_EN.pdf) |
 | `EP-PRESS-20260427IPR42011` | EP press release — deal on simplification measures, ban on 'nudifier' apps | 2026-05-07 | link-only | [EP press room](https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/ai-act-deal-on-simplification-measures-ban-on-nudifier-apps) |

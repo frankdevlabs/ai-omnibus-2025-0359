@@ -5,9 +5,9 @@
 | **Procedure** | **2025/0359 (COD)** — EU Ordinary Legislative Procedure · [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 | **Proposal** | **COM(2025) 836 final** (2025-11-19) + SWD(2025) 836 — [digest](docs/commission-proposal.md) · [base-text extracts](extracts/commission/) · [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0836) |
 | **Legal bases** | Article 114 TFEU (OLP per Article 294 TFEU) |
-| **OLP stage** | 1st reading. **Provisional political agreement** (7 May 2026), committee-approved 2 Jun 2026; "Awaiting Parliament's position in 1st reading" — plenary vote expected in the **15–18 Jun 2026** Strasbourg part-session (Oeil's indicative **16 Jun** forecast was removed on 16 Jun; no new date posted, vote not yet recorded), then Council formal adoption |
-| **Latest text** | **PE789.081** — provisional agreement, consolidated text (13 May 2026) — [agreed-text extracts](extracts/agreed/) · [register](sources/README.md) |
-| **As of** | **10 June 2026** (= `data/tracker-state.yaml` `last_run`) |
+| **OLP stage** | 1st reading. **EP adopted its 1st-reading text `T10-0198/2026` on 16 Jun 2026** (debate 15 Jun) by **423/57/174** (roll-call) — the plenary adoption of the agreed text PE789.081; stage now **"Awaiting Council's 1st reading position"**, i.e. Council formal adoption next |
+| **Latest text** | **PE789.081** — provisional agreement, consolidated text (13 May 2026); adopted by the EP plenary at 1st reading as **T10-0198/2026** (16 Jun 2026) — [agreed-text extracts](extracts/agreed/) · [register](sources/README.md) |
+| **As of** | **18 June 2026** (OEIL procedure file, EP 1st-reading vote confirmed) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); the agreed substance reflects the operative
@@ -18,10 +18,9 @@
 ## One-line status
 
 Council and Parliament reached a **provisional political agreement on 7 May 2026** (negotiators'
-compromise 6 May; Coreper confirmed 13 May; IMCO/LIBE approved the text 2 Jun); the file awaits the
-EP plenary 1st-reading vote (expected during the 15–18 Jun 2026 Strasbourg part-session; Oeil's
-indicative 16 Jun forecast was withdrawn on 16 Jun, with no replacement date and no vote yet on file)
-and Council formal adoption, with both
+compromise 6 May; Coreper confirmed 13 May; IMCO/LIBE approved the text 2 Jun); the **EP adopted its
+1st-reading text `T10-0198/2026` on 16 Jun 2026** (debate 15 Jun), the plenary adoption of the agreed
+text PE789.081. The file now **awaits Council's 1st-reading position (formal adoption)**, with both
 co-legislators aiming for OJ publication **before 2 Aug 2026** — the date the AI Act high-risk
 obligations would otherwise start applying.
 
@@ -35,18 +34,18 @@ obligations would otherwise start applying.
 - **Next:** Legal-linguistic finalisation; delegated/implementing acts under the new sectoral-interaction provisions after entry into force.
 
 ### Council — co-legislator
-- **Stage:** Provisional agreement confirmed by Coreper (13 May 2026); awaiting EP plenary, then formal adoption.
+- **Stage:** Provisional agreement confirmed by Coreper (13 May 2026); **EP completed 1st reading 16 Jun 2026** — file now at "Awaiting Council's 1st reading position" (formal adoption).
 - **Latest act:** ST 9247/26 — Coreper information note + letter to the EP (13 May 2026) — [register](sources/README.md)
 - **Owner:** Cypriot presidency (until 30 Jun 2026; Ireland from 1 Jul 2026); Telecom Working Party.
 - **Position:** Mandate ST 7322/26 (13 Mar 2026) set fixed application dates, added the nudifier/CSAM ban, restored registration and "strict necessity" — largely carried into the agreement ([positions](docs/institutional-positions.md)).
 - **Next:** Formal adoption of the act (expected before end of the Cypriot presidency, in any case before 2 Aug 2026).
 
 ### Parliament — co-legislator
-- **Stage:** Negotiated text approved in joint IMCO/LIBE committee (Rule 75(4), 2 Jun 2026); awaiting plenary 1st-reading vote, expected in the 15–18 Jun 2026 Strasbourg part-session — Oeil's indicative 16 Jun forecast was removed on 16 Jun (no new date posted, vote not yet recorded).
-- **Latest act:** Committee approval of PE789.081 (2 Jun 2026) — [agreed-text extracts](extracts/agreed/) · [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD))
+- **Stage:** **1st reading completed** — plenary adopted the agreed text as `T10-0198/2026` on 16 Jun 2026 (debate 15 Jun), following joint IMCO/LIBE committee approval (Rule 75(4), 2 Jun 2026). Parliament's part is done; the file now awaits Council.
+- **Latest act:** EP 1st-reading adoption of the agreed text — **T10-0198/2026** (16 Jun 2026), adopted **423/57/174** (Am 118, roll-call); the adopted text is PE789.081 — [register](sources/README.md) · [agreed-text extracts](extracts/agreed/) · [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD))
 - **Owner:** Co-rapporteurs Arba Kokalari (EPP, SE) and Michael McNamara (Renew, IE), joint committee CJ40 (IMCO/LIBE).
-- **Position:** Negotiating position T10-0098/2026 adopted 569/45/23; secured the nudifier/CSAM ban, restored a (softened) Art 4 literacy duty, kept registration, shortened the watermarking transition ([positions](docs/institutional-positions.md)).
-- **Next:** Plenary vote on the 1st-reading position (expected in the 15–18 Jun 2026 part-session; the indicative 16 Jun date was withdrawn from Oeil on 16 Jun), then signature.
+- **Position:** Negotiating position T10-0098/2026 adopted 569/45/23 (26 Mar); the 16 Jun 1st-reading text T10-0198/2026 adopts the trilogue compromise (423/57/174, roll-call) — securing the nudifier/CSAM ban, the restored (softened) Art 4 literacy duty, kept registration, shortened watermarking transition ([positions](docs/institutional-positions.md)).
+- **Next:** None pending in Parliament before signature; the act now passes to Council for 1st-reading adoption, then joint signature and OJ publication.
 
 ### Advisory bodies & Member States
 
@@ -59,8 +58,8 @@ obligations would otherwise start applying.
 
 ## Next milestones to watch
 
-- [ ] **EP plenary 1st-reading vote** — expected in the 15–18 Jun 2026 Strasbourg part-session; Oeil's indicative 16 Jun forecast was **removed on 16 Jun** with no replacement date and no vote yet on file, so the exact day is no longer pinned. Watch for the adopted-text T-number and any divergence from PE789.081
-- [ ] **Council formal adoption** — expected "in the coming weeks", before the presidency handover to Ireland (1 Jul 2026). The 9 Jun 2026 Telecom Council recapped the May agreement but did **not** take up formal adoption — adoption still pending ([TIMELINE](TIMELINE.md))
+- [x] **EP plenary 1st-reading vote** — **done 16 Jun 2026**: plenary adopted the agreed text as `T10-0198/2026` (debate 15 Jun) by **423/57/174** (Am 118, roll-call — [register](sources/README.md)). No divergence from PE789.081 (plenary adoption of the trilogue text)
+- [ ] **Council formal adoption** — now the live next step (stage: "Awaiting Council's 1st reading position"); expected before the presidency handover to Ireland (1 Jul 2026). The 9 Jun 2026 Telecom Council recapped the May agreement but did **not** take up formal adoption — adoption still pending ([TIMELINE](TIMELINE.md))
 - [ ] **OJ publication** — registers the final regulation number (EU) 2026/xxxx; entry into force 3 days after publication; targeted before 2 Aug 2026
 - [ ] **Threshold risk:** if the plenary slips past mid-July 2026, adoption before 2 Aug 2026 is at risk — the original AI Act timeline (Annex III high-risk from 2 Aug 2026) would then formally bite; flag this scenario immediately
 - [ ] **Watch-item:** legal-linguistic revision may still touch drafting defects flagged in the [agreed-text extracts](extracts/agreed/) (e.g. the missing Article 75b that Art 75d cites, Art 4a paragraph numbering); re-verify Art 4 and the machinery equivalence clause against the adopted text
