@@ -248,6 +248,34 @@ documents:
       Adopted 569 / 45 / 23; matter referred back to committee for interinstitutional
       negotiations (first "handshake" trilogue the same day).
 
+  - id: T10-0198-2026
+    title: "EP first-reading text adopted in plenary (texts adopted, 16 June 2026) — P10_TA(2026)0198"
+    body: Parliament
+    date: 2026-06-16
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/TA-10-2026-0198_EN.html
+    local: sources/parliament/T10-0198-2026_ep-first-reading-text_2026-06-16.pdf
+    notes: >-
+      EP legislative resolution of 16 June 2026 (COM(2025)0836 – C10-0304/2025 – 2025/0359(COD)),
+      first reading: plenary adoption of the provisional agreement PE789.081 (no new operative
+      content vs the agreed text already held at extracts/agreed/). Provisional agreement adopted
+      423 / 57 / 174 (Am 118, roll-call) — see PE-789800. doceo PDF is AWS-WAF bot-blocked to
+      non-browser clients; fetched via fetch_blocked_doc.py and committed.
+
+  - id: PE-789800
+    title: "Results of votes — EP plenary sitting of 16 June 2026 (P10_PV(2026)06-16(VOT))"
+    body: Parliament
+    date: 2026-06-16
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/PV-10-2026-06-16-VOT_EN.html?item=9
+    local: sources/parliament/PE-789800_results-of-votes-16-jun-sitting_2026-06-16.pdf
+    notes: >-
+      Official "Results of votes" for the 16 June 2026 sitting (OEIL "Results of vote in
+      Parliament — Technical information" link, item 9). Confirms the AI Omnibus provisional
+      agreement (Am 118) adopted by roll-call 423 in favour / 57 against / 174 abstentions —
+      the primary source for the tally previously cited only via IEU Monitoring. doceo PDF
+      bot-blocked; fetched via fetch_blocked_doc.py and committed.
+
   - id: PE-789081
     title: "Provisional agreement resulting from interinstitutional negotiations (consolidated text, CJ40_AG(2026)789081)"
     body: Parliament
