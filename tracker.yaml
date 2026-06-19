@@ -137,7 +137,7 @@ watchlist:
       url: "https://www.europarl.europa.eu/doceo/document/A-10-2026-0073_EN.html"
       document_id: A10-0073-2026
       affects: [STATUS.md, TIMELINE.md, extracts/]
-      notes: "Report page links forward to the plenary outcome; after the vote, register the adopted TA text and diff it against PE789.081."
+      notes: "Report page links forward to the plenary outcome; after the vote, register the adopted TA text and diff it against PE789.081. doceo bot-blocks non-browser clients (HTTP 202/AWS-WAF) — a 202 here is by-design, not a health failure; the report operative text is already committed (A10-0073-2026, sources/parliament/)."
     T1-08:
       tier: T1
       kind: institutional
@@ -145,6 +145,7 @@ watchlist:
       url: "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-12026-proposal_en"
       document_id: EDPB-EDPS-JO-1-2026
       affects: [docs/advisory/, docs/institutional-positions.md]
+      notes: "Opinion published 21 Jan 2026, already committed (sources/edpb-edps/) and digested (docs/advisory/edpb-edps-jo-1-2026.md); no new output expected. The EDPB site intermittently returns an AWS-WAF challenge (HTTP 403/202) to non-browser clients — transient and non-blocking, substance already captured."
     T1-09:
       tier: T1
       kind: institutional
