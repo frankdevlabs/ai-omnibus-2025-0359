@@ -7,7 +7,7 @@
 |---|---|---|
 | **Commission** | proposer | Simplify + delay conditionally; ease registration, bias-data and literacy duties ([digest](commission-proposal.md)) |
 | **Council** | co-legislator — mandate ST 7322/26 (13 Mar 2026) | Fixed dates instead of conditional delay; added the nudifier/CSAM ban; restored registration + "strict necessity" |
-| **Parliament** | co-legislator — position T10-0098/2026 (26 Mar 2026, 569/45/23) | Same restorations; nudifier/CSAM ban "a key part of the Parliament's mandate"; restored (softened) Art 4 duty; shorter watermarking transition |
+| **Parliament** | co-legislator — position T10-0098/2026 (26 Mar 2026, 569/45/23); **agreed text adopted in plenary 16 Jun 2026 as T10-0198/2026, 423/57/174** (roll-call) | Same restorations; nudifier/CSAM ban "a key part of the Parliament's mandate"; restored (softened) Art 4 duty; shorter watermarking transition |
 | **Agreement** | provisional (7 May 2026; text PE789.081) | Council-style fixed dates + EP-style protections — see [`what-changed.md`](what-changed.md) |
 
 ## How the positions converged, per theme
