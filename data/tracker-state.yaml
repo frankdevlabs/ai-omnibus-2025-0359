@@ -5,21 +5,21 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-06-22T06:30:00Z
+last_run: 2026-06-23T13:18:39Z
 sources:
   # T1-01: hash drifted but ALL legislative key events + stage identical to
-  # 19-Jun capture (status "Awaiting Council's 1st reading position"; plenary
-  # vote T10-0198/2026 16/06 + Coreper letter GEDA/A/(2026)003414 — covered by
-  # #18). Drift confined to the rotating lobby/transparency meeting block
-  # (noyb 20/05, ARD/ZDF 19/05 — unchanged). No threshold event (Council
-  # adoption / OJ). Re-baselined.
+  # 22-Jun capture (status "Awaiting Council's 1st reading position"; latest
+  # events = plenary vote T10-0198/2026 16/06 + Coreper letter
+  # GEDA/A/(2026)003414 02/06 — covered by #14/#18). Drift confined to the
+  # rotating lobby/transparency meeting block (noyb 20/05, ARD/ZDF 19/05 —
+  # unchanged). No threshold event (Council adoption / OJ). Re-baselined.
   T1-01:
-    last_seen_hash: "sha256:49a58d58b20dc8bdacab7fe7d4d1fc56ed70aa6d68432ee5e700f46cd28ab213"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_hash: "sha256:38887138e98dacc8b9ddce29c357c307dfd30388765d2f2b21530c30deab8883"
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-02: Cellar notice unchanged (still COM(2025) 836 proposal notice).
   T1-02:
     last_seen_hash: "sha256:f253751ff3b69eb8e5a602d7bedec51f9aaeebeac957b8f1bbff6632cf923488"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-03: AWS-WAF challenge (HTTP 202) again — unreachable-by-design,
   # hash frozen at last good capture (rely on T1-01/T1-02).
   T1-03:
@@ -28,39 +28,37 @@ sources:
   # T1-04: ST-9247-2026 PDF text unchanged (no Council adoption docs yet).
   T1-04:
     last_seen_hash: "sha256:40c4d5719f2b3ba614092c56307132a99cb5676572e59b75ebd2a21523f83e98"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-05: body hash drifted but "As of 22/05/2026" footer unchanged — page
   # chrome, no new AI-file substance. Re-baselined.
   T1-05:
-    last_seen_hash: "sha256:cb3104d97f5cb66095070e29f4da78a4cb04b7a14fbadb33c903cd59ac051b40"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_hash: "sha256:c6a557b77b2c21361edc8417ad9f0521337663c477a62cc9eaaac96189019ac4"
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-06: digital-strategy library page unchanged, no new docs.
   T1-06:
     last_seen_hash: "sha256:a658a624a79ccff55d9c0ce7b5be1ccfeb40e4bd15335cdba12fdc5f54c2313c"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-07: AWS-WAF challenge page (doceo 202); hash frozen — rely on T1-01.
   T1-07:
     last_seen_hash: "sha256:48c50f84029022705d565bd9582319997e623c868c0679f3560f6c57d9e4e3ba"
     last_seen_at: 2026-06-11T06:23:11Z
-  # T1-08: UNREACHABLE again — site returns an AWS-WAF JS challenge page to
-  # curl after retry (was reachable 2026-06-18). Hash FROZEN at last good
-  # capture; still logged to Source health #20. Likely transient (advisory
-  # opinion already published 21 Jan 2026, no new substance).
+  # T1-08: UNREACHABLE — site returns an AWS-WAF JS challenge page to curl after
+  # retry (unreachable since 2026-06-18). Hash FROZEN at last good capture.
+  # Source-health #20 closed 19-Jun (plan-drafted); next weekly health update
+  # due ~26-Jun, 5 days short of the 14-day auto-pause. Likely transient
+  # (advisory opinion already published 21 Jan 2026, no new substance).
   T1-08:
     last_seen_hash: "sha256:2aeb323a59eaf3d7f7e62d62e316fa4667c5de6e37a1f7036e565cea628e28e0"
     last_seen_at: 2026-06-18T13:25:00Z
-  # T1-09: hash drifted but still NO in-scope omnibus substance — "2 August
-  # 2028" hits are original AI Act Art 111/112 review-clause dates, not the
-  # omnibus-pushed application dates (no "2 December 2027", no "omnibus", no
-  # "2025/0359"). Chrome drift, re-baselined.
+  # T1-09: hash unchanged — no in-scope omnibus substance.
   T1-09:
     last_seen_hash: "sha256:78450f16f7ad3391858feed5a42c02954c86c61eb81fef3c3e330567d75e6f19"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-10: body changed but NO in-scope titles (no omnibus/AI-verordening/
   # kunstmatige). Out-of-scope list drift, re-baselined.
   T1-10:
-    last_seen_hash: "sha256:76f532312f7c8e491f4efb79bb1bffa3e18dfde8e5851357d9f994bfecf38bdc"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_hash: "sha256:44a6858440b7a026a9b36e0379f4b6b116224e44920b0f24bc81ee222d4efe23"
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-11: Kamervragen RSS returned 0 items today — transient per routine
   # rule (do not update state on empty feed). Hash/last_seen FROZEN.
   T1-11:
@@ -75,42 +73,44 @@ sources:
       - PE784.275v01-00
       - PE784.309v01-00
       - PE782.530v01-00
-    last_seen_at: 2026-06-22T06:30:00Z
-  # T1-13: LIBE committee documents — returned same 3 refs as seen_refs. No hit.
+    last_seen_at: 2026-06-23T13:18:39Z
+  # T1-13: LIBE committee documents — returned 2 refs, both already in
+  # seen_refs. No new pe_ref → no hit.
   T1-13:
     seen_refs:
       - PE782.530v02-00
       - PE784.274v01-00
       - PE784.275v01-00
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_at: 2026-06-23T13:18:39Z
   # T1-14: JURI committee documents — returned same 3 refs as seen_refs. No hit.
   T1-14:
     seen_refs:
       - PE784.179v02-00
       - PE784.465v01-00
       - PE784.179v01-00
-    last_seen_at: 2026-06-22T06:30:00Z
-  # T2-01: techpolicy.press feed unchanged (0 in-scope items).
+    last_seen_at: 2026-06-23T13:18:39Z
+  # T2-01: techpolicy.press feed drifted but 0 in-scope items. Re-baselined.
   T2-01:
-    last_seen_hash: "sha256:69eae95fb3c0dc8c9bf05ca8ea183014104ab5fe476f784a6ac3c245d7044f01"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_hash: "sha256:44bf53ab0a9d51c589e0dcb27706531c177888262aef896b716c672f3afb71be"
+    last_seen_at: 2026-06-23T13:18:39Z
   # T2-02: medialaws tracker hash drifted but "Last updated: 16 June 2026"
   # (predates this run) — drift is the rotating recent-posts sidebar widget,
   # no new AI-file (2025/0359) substance. Re-baselined.
   T2-02:
-    last_seen_hash: "sha256:57bb7dcb5133bca545b803acb3dd7421ee9464e0f9d0228087d652eab0340121"
-    last_seen_at: 2026-06-22T06:30:00Z
-  # T2-03: EDRi feed unchanged. No in-scope hit.
+    last_seen_hash: "sha256:cb3b8c7fa517ad02c733021ffd50c0c6ed91ce8abe19eb0ef4a22f0c3ce1eb98"
+    last_seen_at: 2026-06-23T13:18:39Z
+  # T2-03: EDRi feed unchanged (hash identical). Pre-existing AI-Omnibus items,
+  # nothing new. No in-scope hit.
   T2-03:
     last_seen_hash: "sha256:aab5aa93b01c7ca43a9fa534c78cbcf1daad4fea87c154edb44071f6132ebb4e"
-    last_seen_at: 2026-06-22T06:30:00Z
-  # T2-04: ieu-monitoring feed drifted; only in-scope match is the nudifier/
-  # plenary item (17 Jun 00:09Z) already covered by #14 (the "compet" matches
-  # are European-Council/AI-literacy noise). No new hit, re-baselined.
+    last_seen_at: 2026-06-23T13:18:39Z
+  # T2-04: ieu-monitoring feed drifted; only keyword match is a European-Council
+  # summit item ("competitiveness" -> COMPET substring), not file 2025/0359.
+  # No strong in-scope match. Re-baselined.
   T2-04:
-    last_seen_hash: "sha256:de3181d3f5a65226943b0aa64e21c20898bbac0d47f2688e1526cd0d1fd53785"
-    last_seen_at: 2026-06-22T06:30:00Z
-  # T2-05: globalpolicywatch feed unchanged. No new hit.
+    last_seen_hash: "sha256:20047281a46dca0cf164afa4d0466ac445648ca18f5923b342e3ad3728fd5d9a"
+    last_seen_at: 2026-06-23T13:18:39Z
+  # T2-05: globalpolicywatch feed unchanged (hash identical). No new hit.
   T2-05:
     last_seen_hash: "sha256:d7d0893a7a2f9ec612a40fd41600a436bcccfa405897e65f7e588f26acef11ed"
-    last_seen_at: 2026-06-22T06:30:00Z
+    last_seen_at: 2026-06-23T13:18:39Z
