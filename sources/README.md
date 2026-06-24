@@ -38,6 +38,7 @@
 | `PE-784274` | Committee-stage amendments | 2026-02-14 | cite-only | [doceo](https://www.europarl.europa.eu/doceo/document/CJ40-AM-784274_EN.html) |
 | `PE-784275` | Committee-stage amendments | 2026-02-14 | cite-only | [doceo](https://www.europarl.europa.eu/doceo/document/CJ40-AM-784275_EN.html) |
 | `PE-784309` | Committee-stage amendments | 2026-02-14 | cite-only | [doceo](https://www.europarl.europa.eu/doceo/document/CJ40-AM-784309_EN.html) |
+| `PE-784465` | JURI committee-stage amendments (35-213) | 2026-02-17 | `sources/parliament/` | [doceo](https://www.europarl.europa.eu/doceo/document/JURI-AM-784465_EN.html) |
 | `PE-784179` | JURI opinion (Lagodinsky) | 2026-02-26 | `sources/parliament/` | [doceo](https://www.europarl.europa.eu/doceo/document/JURI-AD-784179_EN.html) |
 | `PE-784261` | CULT opinion (Rafowicz) | 2026-03-06 | `sources/parliament/` | [doceo](https://www.europarl.europa.eu/doceo/document/CULT-AD-784261_EN.html) |
 | `PE-785326` | TRAN opinion (Costanzo) | 2026-03-18 | cite-only | [doceo](https://www.europarl.europa.eu/doceo/document/TRAN-AD-785326_EN.html) |
