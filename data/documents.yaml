@@ -198,6 +198,19 @@ documents:
     url: https://www.europarl.europa.eu/doceo/document/CJ40-AM-784309_EN.html
     access: cite-only
 
+  - id: PE-784465
+    title: "JURI committee-stage amendments 35-213 to the draft opinion (JURI_AM(2026)784465)"
+    body: Parliament
+    date: 2026-02-17
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/JURI-AM-784465_EN.html
+    local: sources/parliament/PE-784465_juri-amendments_2026-02-17.pdf
+    notes: >-
+      Amendments tabled to the Lagodinsky draft JURI opinion (the JURI counterpart to the IMCO/LIBE
+      committee-stage amendments PE-784274/275/309). doceo bot-blocks the PDF/DOCX to non-browser
+      clients (HTTP 202 / AWS-WAF); retrieved via fetch_blocked_doc.py (headless-browser tier) and
+      committed. Surfaced by the 2026-06-24 completeness audit (in JURI seen_refs but unregistered).
+
   - id: PE-784179
     title: "JURI opinion (rapporteur Lagodinsky)"
     body: Parliament
