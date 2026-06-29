@@ -146,6 +146,20 @@ documents:
       Announces the 7 May 2026 provisional political agreement; updated 18 May 2026 with the
       presidency letter to the EP. Cite-only (consilium press pages bot-block automated clients).
 
+  - id: COUNCIL-PRESS-2026-06-29
+    title: "Council press release — Artificial intelligence: Council gives final green light to simplify and streamline rules"
+    body: Council
+    date: 2026-06-29
+    limite: false
+    url: https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/
+    access: cite-only
+    notes: >-
+      Announces the Council's final adoption of 2025/0359 on 29 Jun 2026 — adopting the act at first
+      reading, approving the EP's 1st-reading position (T10-0198/2026, text PE789.081). Procedure-
+      completing step; the act now awaits signature by the two Presidents and OJ publication. Part of
+      the "Omnibus VII" simplification package. Cite-only (consilium press pages bot-block automated
+      clients); the NNN/26 release number was not retrievable from the WAF-blocked page.
+
   # --- Parliament -------------------------------------------------------------
   - id: OEIL-2025-0359
     title: "Procedure file 2025/0359(COD) — Legislative Observatory"
