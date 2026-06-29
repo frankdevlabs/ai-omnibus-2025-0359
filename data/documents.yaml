@@ -365,3 +365,16 @@ documents:
     notes: >-
       Mandatory consultation; opinion adopted 18 Mar 2026. No stable public PDF link found at
       registration time — cited by document number. Digest: docs/advisory/eesc-ces-3929-2025.md.
+
+  - id: CDR-4240-2025
+    title: "Committee of the Regions opinion on the Digital Omnibus on AI (CDR4240/2025)"
+    body: CofR
+    date: 2026-05-07
+    limite: false
+    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)
+    access: cite-only
+    notes: >-
+      Own-initiative/referral opinion (CofR is not a mandatory consultee on this file), adopted at the
+      07 May 2026 plenary; listed under OEIL "Other institutions and bodies" for 2025/0359(COD). No
+      stable public PDF / OJ link at registration time (CELEX 52025AR4240 not yet published) — cited by
+      document number. Digest: docs/advisory/cofr-cdr-4240-2025.md.

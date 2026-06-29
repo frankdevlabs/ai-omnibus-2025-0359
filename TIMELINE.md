@@ -32,6 +32,7 @@
 | 2026-04-28 | Second political trilogue **fails** after ~12 hours; planned press conference cancelled. Sticking point: conformity assessment for AI embedded in Annex I products | [fault lines](docs/fault-lines.md) |
 | 2026-05-06 | Negotiators reach a compromise text (recorded in Council doc **9034/26**, not public) | [register](sources/README.md) |
 | 2026-05-07 | **Provisional political agreement publicly announced** — Council press 299/26, EP press 20260427IPR42011, Commission IP/26/1024; co-rapporteurs' press conference, Strasbourg | [register](sources/README.md) |
+| 2026-05-07 | **CofR opinion CDR4240/2025** adopted (own-initiative; substance pending source text) | [register](sources/README.md) · [digest](docs/advisory/cofr-cdr-4240-2025.md) |
 | 2026-05-13 | **Coreper confirms the agreement** (ST 9247/26 + letter GEDA/A/(2026)003414); consolidated agreed text **PE789.081** issued | [register](sources/README.md) · [agreed-text extracts](extracts/agreed/) |
 | 2026-05-18 | Council press release 299/26 updated with the presidency letter to the EP (first-reading agreement) | [register](sources/README.md) |
 | 2026-06-02 | **IMCO/LIBE approve the negotiated text in committee** (Rule 75(4)), referring to PE789.081 and GEDA/A/(2026)003414 | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
