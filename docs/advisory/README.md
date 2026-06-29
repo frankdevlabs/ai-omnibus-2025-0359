@@ -7,3 +7,4 @@ Digests of the advisory-body opinions on file 2025/0359 (COD). Sources in
 - [`edpb-edps-jo-1-2026.md`](edpb-edps-jo-1-2026.md) — EDPB–EDPS Joint Opinion 1/2026 (20 Jan 2026)
 - [`ecb-con-2026-10.md`](ecb-con-2026-10.md) — ECB opinion CON/2026/10 (13 Mar 2026)
 - [`eesc-ces-3929-2025.md`](eesc-ces-3929-2025.md) — EESC opinion CES3929/2025 (18 Mar 2026)
+- [`cofr-cdr-4240-2025.md`](cofr-cdr-4240-2025.md) — CofR opinion CDR4240/2025 (7 May 2026)

@@ -58,3 +58,4 @@
 | `EDPB-EDPS-JO-1-2026` | EDPB–EDPS Joint Opinion 1/2026 on the Digital Omnibus proposals | 2026-01-20 | `sources/edpb-edps/` | [EDPB](https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-12026-proposal_en) |
 | `CON-2026-0010` | ECB opinion CON/2026/10 (OJ C/2026/2285) | 2026-03-13 | `sources/advisory/` | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026AB0010) |
 | `CES-3929-2025` | EESC opinion (CES3929/2025) | 2026-03-18 | cite-only | [EESC opinions](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions) |
+| `CDR-4240-2025` | CofR opinion (CDR4240/2025) | 2026-05-07 | cite-only | [OEIL](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |

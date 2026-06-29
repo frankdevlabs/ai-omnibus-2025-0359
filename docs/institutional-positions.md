@@ -43,3 +43,4 @@
   position. [Digest](advisory/edpb-edps-jo-1-2026.md).
 - **EESC** CES3929/2025 (18 Mar 2026) — [digest](advisory/eesc-ces-3929-2025.md).
 - **ECB** CON/2026/10 (13 Mar 2026) — [digest](advisory/ecb-con-2026-10.md).
+- **CofR** CDR4240/2025 (7 May 2026) — own-initiative opinion, adopted after the political agreement; [digest](advisory/cofr-cdr-4240-2025.md).
