@@ -39,10 +39,10 @@
 | 2026-06-09 | EU **Telecommunications Council** (Cyprus presidency main-results): presidency publicly recaps "the May agreement on the AI act and Omnibus … enhanced child protection against AI risks" (the new Art 5 nudifier/CSAM ban). **Confirmatory only** — the file was not on the agenda; **no formal adoption of 2025/0359** (the meeting's substantive items were the Business Wallets, Digital Networks Act and Cybersecurity Act 2) | [IEU Monitoring](https://ieu-monitoring.com/editorial/main-results-of-the-eu-telecommunications-council-on-9-june-2026/1243080/) |
 | 2026-06-15 | **Debate in Parliament** in the Strasbourg part-session (CRE-10-2026-06-15), ahead of the 1st-reading vote | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 | 2026-06-16 | **EP adopts its 1st-reading text** (**T10-0198/2026**) — plenary adoption of the agreed text PE789.081, carried **423/57/174** (Am 118, roll-call; "Results of votes" PE 789.800). Procedure stage advances to **"Awaiting Council's 1st reading position"**. Distinct from the 26/03 negotiating-position vote T10-0098/2026 | [register](sources/README.md) · [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) · [agreed-text extracts](extracts/agreed/) |
+| 2026-06-29 | **Council adopts the act at 1st reading** (final green light) — approving the EP's 1st-reading position (**T10-0198/2026**, text PE789.081); **procedure-completing**. The act now awaits signature by the two Presidents and **OJ publication** ((EU) 2026/xxxx). Adopted under the Cypriot presidency in its last week (Ireland takes over 1 Jul 2026). Part of the "Omnibus VII" simplification package | [register](sources/README.md) · [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) · [press release](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/) |
 
 ### Upcoming (indicative — not yet happened)
 
 | Date | Event | Source |
 |---|---|---|
-| before 2026-07-01 | Council formal adoption expected under the Cypriot presidency (Ireland takes over 1 Jul) | `STATUS.md` |
 | before 2026-08-02 | OJ publication targeted; entry into force 3 days later — before the AI Act high-risk obligations would have applied | `STATUS.md` |

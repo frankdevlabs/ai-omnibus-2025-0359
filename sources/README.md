@@ -28,6 +28,7 @@
 | `ST-9247-2026` | Coreper information note + letter to the EP confirming the agreement | 2026-05-13 | `sources/council/` | [register](https://data.consilium.europa.eu/doc/document/ST-9247-2026-INIT/en/pdf) |
 | `COUNCIL-PRESS-189-26` | Press release — Council agrees position to streamline AI rules | 2026-03-13 | cite-only | [consilium press](https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/council-agrees-position-to-streamline-rules-on-artificial-intelligence/) |
 | `COUNCIL-PRESS-299-26` | Press release — Council and Parliament agree to simplify and streamline rules | 2026-05-07 | cite-only | [consilium press](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/) |
+| `COUNCIL-PRESS-2026-06-29` | Press release — Council gives final green light to simplify and streamline rules (final adoption) | 2026-06-29 | cite-only | [consilium press](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/) |
 
 ## European Parliament
 
