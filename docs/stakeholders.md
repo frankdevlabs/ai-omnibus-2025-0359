@@ -32,10 +32,13 @@ EDPB/EDPS asks; the delay itself and the machinery carve-out went through over t
 - **Future of Life Institute** — [AI Act implementation timeline](https://artificialintelligenceact.eu/implementation-timeline/)
   (watchlist T1-09; fast mirror of the amended application dates).
 - **MediaLaws** — [Digital Omnibus Legislative Tracker](https://www.medialaws.eu/digital-omnibus-legislative-tracker/)
-  (covers both omnibus files; watchlist T2-02). Updated **16 Jun 2026**: its AI-file (COM(2025) 836 /
-  2025/0359) section now lists *"European Parliament plenary legislative resolution … text adopted"* dated
-  16 Jun 2026 as the latest event — a secondary-source corroboration of the plenary vote (primary: Oeil
-  *"Results of vote in Parliament"*, 16 Jun 2026; see [`TIMELINE.md`](../TIMELINE.md)).
+  (covers both omnibus files; watchlist T2-02). Updated **30 Jun 2026**: its AI-file (COM(2025) 836 /
+  2025/0359) section now lists *"Council of the European Union final approval, conclusion of the
+  legislative process, 29 June 2026"* as the latest event — a secondary-source corroboration of the
+  Council's 1st-reading adoption (primary: consilium "final green light" press release, 29 Jun 2026;
+  see [`TIMELINE.md`](../TIMELINE.md)). The prior 16 Jun 2026 update had recorded the *"European
+  Parliament plenary legislative resolution … text adopted"* (primary: Oeil *"Results of vote in
+  Parliament"*, 16 Jun 2026).
 - **Tech Policy Press** — running analyses of the omnibus deal (watchlist T2-01); **Covington
   Global Policy Watch** (T2-05); **IAPP** and **NicFab** coverage (no curl-fetchable feed — cite
   manually).
