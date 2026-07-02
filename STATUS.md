@@ -5,9 +5,9 @@
 | **Procedure** | **2025/0359 (COD)** — EU Ordinary Legislative Procedure · [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 | **Proposal** | **COM(2025) 836 final** (2025-11-19) + SWD(2025) 836 — [digest](docs/commission-proposal.md) · [base-text extracts](extracts/commission/) · [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0836) |
 | **Legal bases** | Article 114 TFEU (OLP per Article 294 TFEU) |
-| **OLP stage** | 1st reading **completed — act adopted**. **EP adopted its 1st-reading text `T10-0198/2026` on 16 Jun 2026** (423/57/174); the **Council adopted the act at 1st reading on 29 Jun 2026** (final green light), approving the EP position. Stage now **"Act adopted — awaiting signature by the two Presidents & OJ publication"** |
+| **OLP stage** | 1st reading **completed — act adopted**. **EP adopted its 1st-reading text `T10-0198/2026` on 16 Jun 2026** (423/57/174); the **Council adopted the act at 1st reading on 29 Jun 2026** (final green light), approving the EP position. Stage now **"Act adopted — awaiting signature by the two Presidents & OJ publication"** — **OEIL (the primary procedure file) confirms this**, showing Status **"Awaiting signature of act"** and the Key event "Act adopted by Council after Parliament's 1st reading (29/06/2026)" (caught up 1 Jul 2026) |
 | **Latest text** | **PE789.081** — provisional agreement, consolidated text (13 May 2026); adopted by the EP plenary at 1st reading as **T10-0198/2026** (16 Jun 2026) and by the Council at 1st reading on 29 Jun 2026 — [agreed-text extracts](extracts/agreed/) · [register](sources/README.md) |
-| **As of** | **29 June 2026** (Council final adoption — consilium press release) |
+| **As of** | **1 July 2026** — OEIL procedure file confirms Status "Awaiting signature of act" (event: Council final adoption, 29 Jun 2026) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); the agreed substance reflects the operative
