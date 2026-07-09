@@ -5,9 +5,9 @@
 | **Procedure** | **2025/0359 (COD)** — EU Ordinary Legislative Procedure · [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 | **Proposal** | **COM(2025) 836 final** (2025-11-19) + SWD(2025) 836 — [digest](docs/commission-proposal.md) · [base-text extracts](extracts/commission/) · [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0836) |
 | **Legal bases** | Article 114 TFEU (OLP per Article 294 TFEU) |
-| **OLP stage** | 1st reading **completed — act adopted**. **EP adopted its 1st-reading text `T10-0198/2026` on 16 Jun 2026** (423/57/174); the **Council adopted the act at 1st reading on 29 Jun 2026** (final green light), approving the EP position. Stage now **"Act adopted — awaiting signature by the two Presidents & OJ publication"** — **OEIL (the primary procedure file) confirms this**, showing Status **"Awaiting signature of act"** and the Key event "Act adopted by Council after Parliament's 1st reading (29/06/2026)" (caught up 1 Jul 2026); the OEIL Documentation gateway now also lists the **Draft final act `00030/2026/LEX` (03/07/2026)** — the consolidated LEX text prepared for signature, the immediate precursor to OJ publication |
+| **OLP stage** | 1st reading **completed — act adopted and signed**. **EP adopted its 1st-reading text `T10-0198/2026` on 16 Jun 2026** (423/57/174); the **Council adopted the act at 1st reading on 29 Jun 2026** (final green light), approving the EP position; the **final act was signed by the two Presidents on 8 Jul 2026** (draft final act `00030/2026/LEX`, 3 Jul). Stage now **"Procedure completed — awaiting publication in the Official Journal"** — **OEIL (the primary procedure file) confirms this**, having advanced its Status from "Awaiting signature of act" to **"Procedure completed, awaiting publication in Official Journal"** and added the Key event "Final act signed (08/07/2026)". Only OJ publication with the final regulation number (EU) 2026/xxxx now remains |
 | **Latest text** | **PE789.081** — provisional agreement, consolidated text (13 May 2026); adopted by the EP plenary at 1st reading as **T10-0198/2026** (16 Jun 2026) and by the Council at 1st reading on 29 Jun 2026 — [agreed-text extracts](extracts/agreed/) · [register](sources/README.md) |
-| **As of** | **6 July 2026** — OEIL procedure file shows Status "Awaiting signature of act" (event: Council final adoption, 29 Jun 2026), with the **Draft final act `00030/2026/LEX` (3 Jul 2026)** now filed — the consolidated LEX text prepared for signature; no final number (EU) 2026/xxxx or OJ-L link yet |
+| **As of** | **9 July 2026** — OEIL procedure file shows Status **"Procedure completed, awaiting publication in Official Journal"**; the **final act was signed on 8 Jul 2026** (Key event "Final act signed"), authenticating the consolidated text (draft final act `00030/2026/LEX`, 3 Jul 2026); no final number (EU) 2026/xxxx or OJ-L link yet |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); the agreed substance reflects the operative
@@ -21,9 +21,10 @@ Council and Parliament reached a **provisional political agreement on 7 May 2026
 compromise 6 May; Coreper confirmed 13 May; IMCO/LIBE approved the text 2 Jun); the **EP adopted its
 1st-reading text `T10-0198/2026` on 16 Jun 2026** (debate 15 Jun), the plenary adoption of the agreed
 text PE789.081. The **Council adopted the act at 1st reading on 29 Jun 2026** (final green light,
-approving the EP position) — completing the procedure. The file now **awaits signature by the two
-Presidents and OJ publication**, targeted **before 2 Aug 2026** — the date the AI Act high-risk
-obligations would otherwise start applying.
+approving the EP position) — completing the procedure. The **final act was signed by the two Presidents
+on 8 Jul 2026**, moving OEIL to **"Procedure completed, awaiting publication in Official Journal"**. The
+file now **awaits OJ publication only** (final regulation number (EU) 2026/xxxx), targeted **before
+2 Aug 2026** — the date the AI Act high-risk obligations would otherwise start applying.
 
 ## Where each institution stands
 
@@ -39,14 +40,14 @@ obligations would otherwise start applying.
 - **Latest act:** Council 1st-reading adoption of 2025/0359 (29 Jun 2026) — consilium press release — [register](sources/README.md) · [press release](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/)
 - **Owner:** Cypriot presidency (until 30 Jun 2026 — adopted in its last week; Ireland from 1 Jul 2026); Telecom Working Party.
 - **Position:** Mandate ST 7322/26 (13 Mar 2026) set fixed application dates, added the nudifier/CSAM ban, restored registration and "strict necessity" — largely carried into the agreement ([positions](docs/institutional-positions.md)).
-- **Next:** Signature by the Presidents of the EP and the Council, then OJ publication. The **Draft final act `00030/2026/LEX`** (filed 3 Jul 2026) — the consolidated LEX text prepared for signature — is the immediate precursor.
+- **Next:** OJ publication only — the act was **signed by the Presidents of the EP and the Council on 8 Jul 2026** (authenticating draft final act `00030/2026/LEX`); publication registering the final regulation number (EU) 2026/xxxx is the sole remaining step.
 
 ### Parliament — co-legislator
 - **Stage:** **1st reading completed** — plenary adopted the agreed text as `T10-0198/2026` on 16 Jun 2026 (debate 15 Jun), following joint IMCO/LIBE committee approval (Rule 75(4), 2 Jun 2026). Parliament's part is done; the Council adopted at 1st reading on 29 Jun 2026.
 - **Latest act:** EP 1st-reading adoption of the agreed text — **T10-0198/2026** (16 Jun 2026), adopted **423/57/174** (Am 118, roll-call); the adopted text is PE789.081 — [register](sources/README.md) · [agreed-text extracts](extracts/agreed/) · [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD))
 - **Owner:** Co-rapporteurs Arba Kokalari (EPP, SE) and Michael McNamara (Renew, IE), joint committee CJ40 (IMCO/LIBE).
 - **Position:** Negotiating position T10-0098/2026 adopted 569/45/23 (26 Mar); the 16 Jun 1st-reading text T10-0198/2026 adopts the trilogue compromise (423/57/174, roll-call) — securing the nudifier/CSAM ban, the restored (softened) Art 4 literacy duty, kept registration, shortened watermarking transition ([positions](docs/institutional-positions.md)).
-- **Next:** None pending in Parliament; with Council's 1st-reading adoption done (29 Jun 2026), the act proceeds to joint signature and OJ publication.
+- **Next:** None pending in Parliament; the act was jointly **signed on 8 Jul 2026** (President of the EP + President of the Council) and now proceeds to OJ publication.
 
 ### Advisory bodies & Member States
 
@@ -62,7 +63,8 @@ obligations would otherwise start applying.
 
 - [x] **EP plenary 1st-reading vote** — **done 16 Jun 2026**: plenary adopted the agreed text as `T10-0198/2026` (debate 15 Jun) by **423/57/174** (Am 118, roll-call — [register](sources/README.md)). No divergence from PE789.081 (plenary adoption of the trilogue text)
 - [x] **Council formal adoption** — **done 29 Jun 2026**: Council adopted the act at 1st reading (final green light), approving the EP position, in the last week of the Cypriot presidency ([TIMELINE](TIMELINE.md) · [press release](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/))
-- [ ] **Signature & OJ publication** — the **Draft final act `00030/2026/LEX`** (filed 3 Jul 2026) is the consolidated pre-signature text; next comes joint signature by the Presidents of the EP and Council, then OJ publication registering the final regulation number (EU) 2026/xxxx; entry into force 3 days after publication; targeted before 2 Aug 2026
+- [x] **Signature of the final act** — **done 8 Jul 2026**: jointly signed by the Presidents of the EP and Council, authenticating the consolidated text (draft final act `00030/2026/LEX`, 3 Jul 2026); OEIL Status advanced to "Procedure completed, awaiting publication in Official Journal" ([TIMELINE](TIMELINE.md) · [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)))
+- [ ] **OJ publication** — the sole remaining step: publication in the Official Journal registering the final regulation number (EU) 2026/xxxx; entry into force 3 days after publication; targeted before 2 Aug 2026
 - [x] **Threshold risk cleared** — with adoption completed on 29 Jun 2026, there is comfortable margin before 2 Aug 2026; the original AI Act high-risk timeline (Annex III from 2 Aug 2026) will be superseded once the omnibus publishes
 - [ ] **Watch-item:** legal-linguistic revision may still touch drafting defects flagged in the [agreed-text extracts](extracts/agreed/) (e.g. the missing Article 75b that Art 75d cites, Art 4a paragraph numbering); re-verify Art 4 and the machinery equivalence clause against the adopted text
 
