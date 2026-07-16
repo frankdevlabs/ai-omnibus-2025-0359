@@ -17,7 +17,10 @@
   Art 4). Most of those easements were reversed; the *delay itself* (Annex III to Dec 2027) went
   through against the EDPB/EDPS preference to keep the timeline. Post-deal (11 Jun 2026), EDRi,
   Access Now, ECNL and Amnesty International issued a joint statement urging the Parliament to
-  **reject** the deal at the 15 Jun plenary as a "rollback of AI safeguards".
+  **reject** the deal at the 15 Jun plenary as a "rollback of AI safeguards". Post-adoption (16 Jul
+  2026), EDRi's retrospective maintains the line — the adopted text "does more than delay the AI
+  Act", weakening it "before key safeguards fully apply" — closing the civil-society arc without a
+  new procedural fact.
   → [`stakeholders.md`](stakeholders.md) · [`advisory/edpb-edps-jo-1-2026.md`](advisory/edpb-edps-jo-1-2026.md)
 
 - **The nudifier/CSAM ban — Parliament's price.** Not in the Commission proposal; added by Council

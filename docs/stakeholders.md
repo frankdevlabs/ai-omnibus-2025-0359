@@ -15,6 +15,13 @@
   2027, Annex I → 2 Aug 2028), reduced public-database transparency, the residual registration
   easement (Art 6(3)), the bias-data derogation and the machinery Section A → B reclassification.
   [edri.org](https://edri.org/our-work/ai-omnibus-deal-eu-lawmakers-should-reject-a-rollback-of-ai-safeguards/)
+- **EDRi** — post-adoption retrospective "The Digital Omnibus is going on summer break. Your rights
+  are not." (16 Jul 2026). Confirms the AI-file adoption already tracked here (final act signed 8 Jul
+  2026 — see [`STATUS.md`](../STATUS.md)); argues the adopted AI Omnibus "does more than delay the AI
+  Act", weakening transparency, accountability, AI literacy and fundamental-rights oversight "before
+  key safeguards fully apply". No new procedural fact (OJ publication of (EU) 2026/xxxx still
+  outstanding); the Data-Omnibus half it covers is the `keep_apart` sibling 2025/0360.
+  [edri.org](https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/)
 - **noyb** — open letter: "Digital Omnibus brings deregulation, not simplification" (aimed at the
   package as a whole, incl. this file's bias-data easement).
   [noyb.eu](https://noyb.eu/en/open-letter-digital-omnibus-brings-deregulation-not-simplification)
