@@ -5,9 +5,9 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-07-16T13:30:00Z
+last_run: 2026-07-17T13:30:00Z
 sources:
-  # T1-01: hash drifted (8f6d31f9 -> 1d528a89) but NO new substance: status
+  # T1-01: hash drifted (1d528a89 -> 493a503b) but NO new substance: status
   # still "Procedure completed, awaiting publication in Official Journal";
   # latest event still "Act adopted by Council after Parliament's 1st reading
   # 08/07/2026 / Final act signed"; latest doc still Draft final act
@@ -16,13 +16,13 @@ sources:
   # the rotating interest-representatives / lobby-meeting widget. THRESHOLD
   # EVENT 3 (OJ publication) still outstanding. Re-baselined, no new issue.
   T1-01:
-    last_seen_hash: "sha256:1d528a8946a4f884d0720d2367317bdeee6b76ed15a5c0ab709693341412eea5"
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_hash: "sha256:493a503b86ef1823a6f46df4d83364aeb4d04789c49e208d250886ee7dc79869"
+    last_seen_at: 2026-07-17T13:30:00Z
   # T1-02: Cellar notice unchanged (still the COM(2025) 836 proposal; no final
   # act, no OJ-L). No hit.
   T1-02:
     last_seen_hash: "sha256:f253751ff3b69eb8e5a602d7bedec51f9aaeebeac957b8f1bbff6632cf923488"
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_at: 2026-07-17T13:30:00Z
   # T1-03: AWS-WAF challenge again (HTTP 202 to automated clients) —
   # unreachable-by-design, hash NOT updated (kept the 26-Jun real-page
   # baseline). Relied on T1-01 for procedure status.
@@ -33,54 +33,49 @@ sources:
   # this number yet — watch for a PE-CONS / I-A item note as a new ST number).
   T1-04:
     last_seen_hash: "sha256:40c4d5719f2b3ba614092c56307132a99cb5676572e59b75ebd2a21523f83e98"
-    last_seen_at: 2026-07-16T13:30:00Z
-  # T1-05: legislative-train hash drifted (5b191519 -> d759ab7f) but NO new
+    last_seen_at: 2026-07-17T13:30:00Z
+  # T1-05: legislative-train hash drifted (d759ab7f -> 874bd922) but NO new
   # substance: "As of 20/06/2026" footer unchanged, no (EU) 2026 reg number,
-  # no OJ-L, no corrigendum. Chrome/widget drift, re-baselined, no issue.
+  # no OJ-L, no corrigendum (only "Official Journal" hit is withdrawal
+  # boilerplate). Chrome/widget drift, re-baselined, no issue.
   T1-05:
-    last_seen_hash: "sha256:d759ab7f2293bfa7b39a706977f5f3dbfc4c6bf250dcb46c264f224e969e818b"
-    last_seen_at: 2026-07-16T13:30:00Z
-  # T1-06: digital-strategy library hash drifted (07fe9b9e -> 600dd63a) but NO
-  # new substance — still "Last update 19 January 2026" boilerplate, no new
-  # document/corrigendum listed, no (EU) 2026/xxxx reg number. Chrome drift,
-  # re-baselined, no issue.
+    last_seen_hash: "sha256:874bd9222a12a41af4272798170beb2926bf7a62b8946975bd8f165985c1f392"
+    last_seen_at: 2026-07-17T13:30:00Z
+  # T1-06: digital-strategy library hash unchanged (600dd63a). No hit.
   T1-06:
     last_seen_hash: "sha256:600dd63ae437fc5a5109826a71781d7c9d137793e2c046b595c9600a8a92011a"
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_at: 2026-07-17T13:30:00Z
   # T1-07: AWS-WAF challenge page (doceo 202); hash frozen — rely on T1-01.
   T1-07:
     last_seen_hash: "sha256:48c50f84029022705d565bd9582319997e623c868c0679f3560f6c57d9e4e3ba"
     last_seen_at: 2026-06-11T06:23:11Z
-  # T1-08: normalized hash drifted (297830bd -> f338d015) but SAME EDPB-EDPS
+  # T1-08: normalized hash drifted (f338d015 -> 634e99e8) but SAME EDPB-EDPS
   # Joint Opinion 1/2026 on our file; the "Related documents" widget rotation
   # (still surfacing Joint Opinion 4/2026 on the Cybersecurity Act) is the only
   # delta. No new substance on 2025/0359. Re-baselined.
   T1-08:
-    last_seen_hash: "sha256:f338d015536370bbc82e28994bf69e00119bbe1fea491024bde3d56e6bd8c187"
-    last_seen_at: 2026-07-16T13:30:00Z
-  # T1-09: AI-Act implementation-timeline hash drifted (302b4583 -> e5bfd8c1)
+    last_seen_hash: "sha256:634e99e89b7a9a64515e9a5d1611a433854e3b0b447be8222aca2eebd5dbd6ee"
+    last_seen_at: 2026-07-17T13:30:00Z
+  # T1-09: AI-Act implementation-timeline hash drifted (e5bfd8c1 -> a634a2bd)
   # but NO omnibus content — no "Digital Omnibus", no amended 2 Dec 2027 date,
-  # no (EU) 2026 reg (the only "Official Journal" mention is the 2024 AI-Act
-  # publication boilerplate). Page-chrome drift, re-baselined, no issue.
+  # no (EU) 2026 reg number. Page-chrome drift, re-baselined, no issue.
   T1-09:
-    last_seen_hash: "sha256:e5bfd8c100378eae8bb15ffa79d47bacb56747b156b9bf4a00d408b2a314b254"
-    last_seen_at: 2026-07-16T13:30:00Z
-  # T1-10: NL dossier 21501-33 body hash drifted (5f0c00b8 -> d33aa7c6) but
+    last_seen_hash: "sha256:a634a2bd60374db073a48e88ab18b5bb70eb862474e68700471b3395ee7ed973"
+    last_seen_at: 2026-07-17T13:30:00Z
+  # T1-10: NL dossier 21501-33 body hash drifted (d33aa7c6 -> 4226798c) but
   # ZERO in-scope titles (no omnibus / AI-verordening / kunstmatige
   # intelligentie / vereenvoudiging / uitstel / 2025/0359 / Digital Omnibus).
-  # (curl reported HTTP 000 on teardown but the full page body arrived and
-  # validated.) Out-of-scope list drift, re-baselined, no issue.
+  # Out-of-scope list drift, re-baselined, no issue.
   T1-10:
-    last_seen_hash: "sha256:d33aa7c626a1fd8a3808d1a017b8fd352092440470d08d32e83f024de1bead97"
-    last_seen_at: 2026-07-16T13:30:00Z
-  # T1-11: Kamervragen RSS healthy (2 items; curl reported HTTP 000 on teardown
-  # but the full feed arrived and validated). Normalized hash IDENTICAL to
+    last_seen_hash: "sha256:4226798cf333a2f900a6d817beca2d84552793931527ead4255d4737369775a2"
+    last_seen_at: 2026-07-17T13:30:00Z
+  # T1-11: Kamervragen RSS healthy (2 items). Normalized hash IDENTICAL to
   # baseline (28fe6edb) — same 2 items (ah-tk 1617 nudifier-ban answer;
   # ah-tk 792 Omnibus-privacy answer), nothing new. No hit; last_seen_at
   # advanced.
   T1-11:
     last_seen_hash: "sha256:28fe6edb3713a7e5d7be95a09e3363aece40e11883c01ba2276020393837804e"
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_at: 2026-07-17T13:30:00Z
   # T1-12: IMCO committee documents — per-document detection. Returned the same
   # 5 in-scope 2025/0359 refs as seen_refs. No new pe_ref → no hit.
   T1-12:
@@ -90,7 +85,7 @@ sources:
       - PE784.275v01-00
       - PE784.309v01-00
       - PE782.530v01-00
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_at: 2026-07-17T13:30:00Z
   # T1-13: LIBE committee documents — returned 1 ref, already in seen_refs.
   # No new pe_ref → no hit.
   T1-13:
@@ -98,7 +93,7 @@ sources:
       - PE782.530v02-00
       - PE784.274v01-00
       - PE784.275v01-00
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_at: 2026-07-17T13:30:00Z
   # T1-14: JURI committee documents — returned same 2 in-scope refs (both in
   # seen_refs). No new pe_ref → no hit.
   T1-14:
@@ -106,7 +101,7 @@ sources:
       - PE784.179v02-00
       - PE784.465v01-00
       - PE784.179v01-00
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_at: 2026-07-17T13:30:00Z
   # T2-01: AUTO-PAUSED 2026-07-14. techpolicy.press /feed/ returned a Next.js
   # HTML app-shell (HTTP 200, 0 RSS items) on every run since 30 Jun — 9th
   # consecutive failing run (30 Jun, 02, 06, 07, 08, 09, 10, 13, 14 Jul),
@@ -119,34 +114,29 @@ sources:
     last_seen_at: 2026-06-30T13:20:59Z
     paused: true
     paused_at: 2026-07-14T13:25:00Z
-  # T2-02: MediaLaws tracker hash drifted (3bca6707 -> 2e555517) but NO new
-  # in-scope substance — the 2025/0359 row still reads "text adopted 16 June
-  # 2026 plenary; Council final approval / conclusion of legislative process,
-  # 29 June 2026", no (EU) 2026 reg number, no Official Journal link. Delta is
-  # sibling-file / page-chrome edits. Already reported. Re-baselined, no issue.
+  # T2-02: MediaLaws tracker hash unchanged (2e555517). No hit.
   T2-02:
     last_seen_hash: "sha256:2e55551777c39c1361e1ee76d173e732274192f116062dffd0eb917867104566"
-    last_seen_at: 2026-07-16T13:30:00Z
-  # T2-03: EDRi feed HIT. New in-scope item "The Digital Omnibus is going on
-  # summer break. Your rights are not." (16 Jul 2026) — package-level NGO piece
-  # that confirms AI-file relevance ("the AI Omnibus has been adopted, weakening
-  # the AI Act"). Opened issue #37 (tier-2, ngo). No new threshold event (OJ
-  # publication still outstanding). Hash re-baselined.
+    last_seen_at: 2026-07-17T13:30:00Z
+  # T2-03: EDRi feed hash IDENTICAL to baseline (e06db0f5) — same 20 items,
+  # incl. the already-reported "Digital Omnibus is going on summer break"
+  # (issue #37). Nothing new. No hit.
   T2-03:
     last_seen_hash: "sha256:e06db0f5ca63b9bf204c70ea85fddc6c14852c7ef377eeb45de6591353fcfd7b"
-    last_seen_at: 2026-07-16T13:30:00Z
-  # T2-04: ieu-monitoring feed hash drifted (d096bad8 -> d4bd2964) from new
-  # out-of-scope items rotating in. Zero genuine in-scope items across 50
-  # entries (no COMPET/Telecom Council item on the AI file). Re-baselined,
-  # no issue.
+    last_seen_at: 2026-07-17T13:30:00Z
+  # T2-04: UNREACHABLE 2026-07-17 — ieu-monitoring served a Wordfence "Your
+  # access to this site has been limited" block page (HTTP 200, 0 items) on
+  # both the initial fetch and a 10s-backoff retry. First failure for this
+  # source (healthy 2026-07-16). Hash NOT updated (kept the 2026-07-16
+  # d4bd2964 baseline); last_seen_at NOT advanced. Noted on health issue #33.
   T2-04:
     last_seen_hash: "sha256:d4bd2964748600277c978fadb7e1c86dd8b151288dd2b9f3f3b6e2fd81aff6c1"
     last_seen_at: 2026-07-16T13:30:00Z
-  # T2-05: globalpolicywatch feed hash drifted (fbc0a764 -> dbdd9b16). The only
-  # keyword match is still "Backlash to Bipartisan AI Omnibus Illustrates
-  # Preemption Impasse" — US legislation (Covington US practice; Congress/Senate
-  # preemption), NOT EU file 2025/0359. Out-of-scope false positive.
-  # Re-baselined, no issue.
+  # T2-05: globalpolicywatch feed hash drifted (dbdd9b16 -> 8065171b). The only
+  # keyword matches are US-practice items — "Backlash to Bipartisan AI Omnibus
+  # Illustrates Preemption Impasse" (US Congress/Senate preemption) and a
+  # "U.S. Tech Legislative & Regulatory Update Q2 2026" — NOT EU file
+  # 2025/0359. Out-of-scope false positives. Re-baselined, no issue.
   T2-05:
-    last_seen_hash: "sha256:dbdd9b16e9b7fb1df8cfe541711e26c02a358ed5f836a148ee29e548c32a5ca6"
-    last_seen_at: 2026-07-16T13:30:00Z
+    last_seen_hash: "sha256:8065171bc3044211fb48184e58bff8007ad893c8c832c8ff5ae8dd6c8d2eec95"
+    last_seen_at: 2026-07-17T13:30:00Z
