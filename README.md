@@ -12,7 +12,9 @@ A personal, open tracker for the EU **Digital Omnibus on AI (AI Omnibus)** propo
 > track. See [`tracker.yaml`](tracker.yaml) (`file_id` vs `keep_apart`) and `STATUS.md`
 > for why the two are kept apart.
 
-**Current status (high level):** see the full snapshot in **`STATUS.md`**.
+**Current status (high level):** Procedure completed — EP adopted its 1st-reading text T10-0198/2026
+(16 Jun 2026), Council adopted the act at 1st reading (29 Jun 2026), final act signed 8 Jul 2026;
+awaiting **OJ publication** only (final number (EU) 2026/xxxx, targeted before 2 Aug 2026). Full snapshot in **[`STATUS.md`](STATUS.md)**.
 
 ---
 
@@ -28,7 +30,7 @@ The repo deliberately separates three layers so that links stay stable over time
 
 ### Navigation
 
-- **`STATUS.md`** — where the file stands right now (one screen).
+- **[`STATUS.md`](STATUS.md)** — where the file stands right now (one screen).
 - **[`TIMELINE.md`](TIMELINE.md)** — full chronology, every entry linked to a source.
 - **[`docs/summary.md`](docs/summary.md)** — the plain-language summary.
 - **[`docs/commission-proposal.md`](docs/commission-proposal.md)** — digest of the Commission proposal's explanatory memorandum.
