@@ -102,18 +102,16 @@ sources:
       - PE784.465v01-00
       - PE784.179v01-00
     last_seen_at: 2026-07-17T13:30:00Z
-  # T2-01: AUTO-PAUSED 2026-07-14. techpolicy.press /feed/ returned a Next.js
-  # HTML app-shell (HTTP 200, 0 RSS items) on every run since 30 Jun — 9th
-  # consecutive failing run (30 Jun, 02, 06, 07, 08, 09, 10, 13, 14 Jul),
-  # crossing the 14-consecutive-day auto-pause threshold. Skipped on subsequent
-  # runs until manual intervention; hash baseline retained. Noted on health
-  # issue #33. Resume by removing the `paused` flag once the feed serves real
-  # RSS again.
+  # T2-01: UNPAUSED 2026-07-20 (manual intervention per the pause note, health
+  # issue #33): the old WordPress `/feed/` endpoint was retired in the site's
+  # Next.js migration (app-shell, 0 items, failing 30 Jun – 14 Jul → auto-pause).
+  # tracker.yaml T2-01 re-pointed to the autodiscovery target
+  # https://www.techpolicy.press/rss/feed.xml (valid RSS 2.0, verified 20 Jul).
+  # Hash baseline is for the OLD url — first run against the new url will
+  # re-baseline (treat as baseline, not a hit).
   T2-01:
     last_seen_hash: "sha256:44bf53ab0a9d51c589e0dcb27706531c177888262aef896b716c672f3afb71be"
     last_seen_at: 2026-06-30T13:20:59Z
-    paused: true
-    paused_at: 2026-07-14T13:25:00Z
   # T2-02: MediaLaws tracker hash unchanged (2e555517). No hit.
   T2-02:
     last_seen_hash: "sha256:2e55551777c39c1361e1ee76d173e732274192f116062dffd0eb917867104566"
