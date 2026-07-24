@@ -52,6 +52,12 @@
 | `EP-PRESS-20260427IPR42011` | EP press release — deal on simplification measures, ban on 'nudifier' apps | 2026-05-07 | link-only | [EP press room](https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/ai-act-deal-on-simplification-measures-ban-on-nudifier-apps) |
 | `EPRS-BRI-2026-782651` | EPRS briefing — Digital Omnibus on AI | 2026-02-01 | `sources/parliament/` | [EP Think Tank](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2026)782651) |
 
+## Final act (Official Journal)
+
+| ID | Title | Date | Hosted file | Provenance |
+|---|---|---|---|---|
+| `REG-EU-2026-1744` | **Regulation (EU) 2026/1744 — Digital Omnibus on AI** (final act; OJ L 24.7.2026, in force 27 Jul 2026) | 2026-07-08 | `sources/final-act/` | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744) · [ELI](http://data.europa.eu/eli/reg/2026/1744/oj) |
+
 ## Advisory bodies
 
 | ID | Title | Date | Hosted file | Provenance |
