@@ -60,3 +60,9 @@
 | `CON-2026-0010` | ECB opinion CON/2026/10 (OJ C/2026/2285) | 2026-03-13 | `sources/advisory/` | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026AB0010) |
 | `CES-3929-2025` | EESC opinion (CES3929/2025) | 2026-03-18 | cite-only | [EESC opinions](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions) |
 | `CDR-4240-2025` | CofR opinion (CDR4240/2025) | 2026-05-07 | cite-only | [OEIL](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
+
+## Final act (Official Journal)
+
+| ID | Title | Date | Hosted file | Provenance |
+|---|---|---|---|---|
+| `REG-2026-1744` | **Regulation (EU) 2026/1744** — Digital Omnibus on AI, the adopted in-force act (amending the AI Act 2024/1689, aviation 2018/1139 and machinery 2023/1230); OJ L, 2026/1744, 24.7.2026; signed 8 Jul 2026 | 2026-07-24 | `sources/final-act/` | [EUR-Lex ELI](http://data.europa.eu/eli/reg/2026/1744/oj) · [CELEX 32026R1744](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744) |
