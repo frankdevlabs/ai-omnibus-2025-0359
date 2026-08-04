@@ -49,6 +49,15 @@ EDPB/EDPS asks; the delay itself and the machinery carve-out went through over t
 - **Tech Policy Press** — running analyses of the omnibus deal (watchlist T2-01); **Covington
   Global Policy Watch** (T2-05); **IAPP** and **NicFab** coverage (no curl-fetchable feed — cite
   manually).
+  - *"EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?"* (Bruna Santos
+    & Jacobo Castellanos, 3 Aug 2026) — post-adoption critique of the **Article 50** transparency
+    regime that took effect **2 Aug 2026** and the **Code of Practice**: "a label is not the same as
+    protection"; welcomes metadata/watermarking progress but faults the CoP for mandating only binary
+    AI-generated marking while leaving provenance "optional and encouraged", and flags the personal-use
+    exemption as a deepfake loophole. **Scope note:** AI-Act-level Art 50 / CoP commentary — it makes
+    **no claim** about the omnibus's [Art 50(2) watermarking-transition](provisions/transparency-art50-watermarking.md)
+    amendment this repo tracks; relevant here only as context on how that regime is received.
+    [techpolicy.press](https://techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity)
 - **Covington — Global Policy Watch (T2-05)** — ["EU AI Act Update: the European Commission publishes
   draft guidelines on HRAIs"](https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-the-european-commission-publishes-draft-guidelines-on-hrais/)
   (11 Jun 2026): analyses the Commission's **19 May 2026 draft, non-binding guidelines** on classifying
