@@ -7,8 +7,9 @@
 
 Why this page exists: widely-reported "features of the proposal" are routinely added by
 co-legislators (the Art 5 ban was never in the Commission text) or reversed in negotiation (three
-Commission easements did not survive). And nothing here is law yet: **until OJ publication the
-unamended AI Act 2024/1689 applies**.
+Commission easements did not survive). The agreed text is now enacted — published as **Regulation (EU)
+2026/1744** (OJ, 24 Jul 2026), in force **27 Jul 2026** — so the amended AI Act 2024/1689 dates below
+are now law.
 
 **How to read each row.** The **provision** cell links to its analysis page in
 [`provisions/`](provisions/); substantive cells end with a deep link into the operative text — the

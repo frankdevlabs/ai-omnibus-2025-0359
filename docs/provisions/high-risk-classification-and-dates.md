@@ -16,6 +16,9 @@
 Also agreed: the **"safety component" definition is narrowed** — AI that merely supports users or
 optimises performance falls outside high-risk unless its failure endangers health/safety.
 
-**Lex lata caveat:** until OJ publication the original dates remain law — Annex III formally still
-applies from 2 Aug 2026. The EDPB/EDPS had asked to keep the timeline or minimise delay
+**Status — now enacted:** the omnibus was published as **Regulation (EU) 2026/1744** (OJ, 24 Jul 2026)
+and entered into force **27 Jul 2026**, so the amended dates are law — Annex III applies from **2 Dec
+2027**, Annex I from **2 Aug 2028**; the original 2 Aug 2026 high-risk start no longer applies. Secondary
+trackers have propagated the change (the FLI [AI Act implementation timeline](https://artificialintelligenceact.eu/implementation-timeline/)
+now shows 2 Dec 2027). The EDPB/EDPS had asked to keep the timeline or minimise delay
 ([digest](../advisory/edpb-edps-jo-1-2026.md)); the fixed-date delay went through regardless.
