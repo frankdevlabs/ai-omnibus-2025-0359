@@ -7,7 +7,7 @@
 | **Legal bases** | Article 114 TFEU (OLP per Article 294 TFEU) |
 | **OLP stage** | 1st reading **completed — act adopted, signed and PUBLISHED**. **EP adopted its 1st-reading text `T10-0198/2026` on 16 Jun 2026** (423/57/174); the **Council adopted the act at 1st reading on 29 Jun 2026** (final green light); the **final act was signed by the two Presidents on 8 Jul 2026**; and it was **published in the Official Journal on 24 Jul 2026 as Regulation (EU) 2026/1744** (CELEX 32026R1744). OEIL Status is now **"Procedure completed"**. The regulation **entered into force on 27 Jul 2026** (third day after publication, its Art 4) — the file is closed |
 | **Latest text** | **Regulation (EU) 2026/1744** — the adopted, in-force act (OJ L, 2026/1744, 24 Jul 2026; consolidates the agreed text PE789.081, 13 May 2026) — [final act](sources/final-act/REG-2026-1744_digital-omnibus-ai_2026-07-24.pdf) · [agreed-text extracts](extracts/agreed/) · [register](sources/README.md) · [EUR-Lex ELI](http://data.europa.eu/eli/reg/2026/1744/oj) |
-| **As of** | **28 July 2026** — the file is **complete**: **Regulation (EU) 2026/1744** published in OJ L on 24 Jul 2026 (CELEX 32026R1744), **in force since 27 Jul 2026**. OEIL Status "Procedure completed". Operative OJ text now in hand (`sources/final-act/`) but not yet line-verified against the extracts (see watch-item) |
+| **As of** | **24 September 2026** — the file is **complete**: **Regulation (EU) 2026/1744** published in OJ L on 24 Jul 2026 (CELEX 32026R1744), **in force since 27 Jul 2026**. OEIL Status "Procedure completed". The only new procedural event since OJ publication is a post-adoption **Commission follow-up `SP(2026)09-01`** (01/09/2026) — non-substantive, no change to the enacted act ([TIMELINE](TIMELINE.md)). Operative OJ text now in hand (`sources/final-act/`) but not yet line-verified against the extracts (see watch-item) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); the substance reflects the operative text of
@@ -34,7 +34,7 @@ day after publication) — comfortably before the 2 Aug 2026 AI Act high-risk ba
 - **Latest act:** Press release IP/26/1024 welcoming the agreement (7 May 2026) — [register](sources/README.md) · [presscorner](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024)
 - **Owner:** DG CNECT; Commissioner Valdis Dombrovskis.
 - **Position:** Proposed conditional postponement of high-risk dates, registration/bias-data easements, SME reliefs ([digest](docs/commission-proposal.md)); accepted the co-legislators' fixed dates, restored safeguards and the new Art 5 prohibition.
-- **Next:** Legal-linguistic finalisation complete (act in force 27 Jul 2026); delegated/implementing acts under the new sectoral-interaction provisions follow.
+- **Next:** Legal-linguistic finalisation complete (act in force 27 Jul 2026); post-adoption follow-up `SP(2026)09-01` filed 1 Sep 2026 (Commission response to the plenary text — no change to the enacted act); delegated/implementing acts under the new sectoral-interaction provisions follow.
 
 ### Council — co-legislator
 - **Stage:** **Adopted the act at 1st reading on 29 Jun 2026** (final green light, approving the EP position); the act was signed 8 Jul and **published as Regulation (EU) 2026/1744 on 24 Jul 2026** — Council's part done; procedure completed and closed.
