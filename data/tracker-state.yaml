@@ -5,24 +5,23 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-09-28T13:18:30Z
+last_run: 2026-09-29T13:18:59Z
 sources:
-  # T1-01: OEIL HTTP 200 (140 KB). Normalized hash drifted (8985ad12 ->
-  # d32c12dd) but the newest dated event is still "Commission response to text
+  # T1-01: OEIL HTTP 200 (140 KB). Normalized hash drifted (d32c12dd ->
+  # 412d60eb) but the newest dated event is still "Commission response to text
   # adopted in plenary" SP(2026)09-01 (01/09/2026) — the SAME event already
   # reported in issue #56; no event dated after 01/09/2026, procedure still
-  # "Procedure completed", final act 2026/1744 already shown. Delta = OEIL page
-  # furniture. Re-baselined, no issue.
+  # "Procedure completed", final act Regulation 2026/1744 (OJ L 24.07.2026)
+  # already shown. Delta = OEIL page furniture. Re-baselined, no issue.
   T1-01:
-    last_seen_hash: "sha256:d32c12dd735f9d3b0075a9621eb513b2f0f2405ccdb3234b3ce6c9390b3dd07e"
-    last_seen_at: 2026-09-28T13:18:30Z
-  # T1-02: Cellar object-notice hash flip-flopped BACK (8780fe0a -> f253751f,
-  # the pre-25-Sep baseline). The 52025PC0836 notice still does NOT
-  # cross-reference the final act 2026/1744 (count 0) — the recurring Cellar
-  # propagation flip-flop, NOT a new legislative event. Re-baselined, no issue.
+    last_seen_hash: "sha256:412d60eb5e9c1e3863b9d616fa88499310573d5c1387f62adc0931a770f65b5a"
+    last_seen_at: 2026-09-29T13:18:59Z
+  # T1-02: Cellar object-notice hash unchanged (f253751f). The 52025PC0836
+  # notice still does NOT cross-reference the final act 2026/1744. No new
+  # legislative event. last_seen_at advanced.
   T1-02:
     last_seen_hash: "sha256:f253751ff3b69eb8e5a602d7bedec51f9aaeebeac957b8f1bbff6632cf923488"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_at: 2026-09-29T13:18:59Z
   # T1-03: AWS-WAF challenge (HTTP 202, 2035 B) — unreachable-by-design, hash NOT
   # updated (kept the 26-Jun real-page baseline). Relied on T1-01/T1-02. Health #63.
   T1-03:
@@ -32,51 +31,52 @@ sources:
   # text, no new ST number. last_seen_at advanced.
   T1-04:
     last_seen_hash: "sha256:40c4d5719f2b3ba614092c56307132a99cb5676572e59b75ebd2a21523f83e98"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_at: 2026-09-29T13:18:59Z
   # T1-05: HTTP 202 AWS-WAF challenge (2431 B). Unreachable-by-design; hash NOT
   # updated (kept 2026-07-23 9041b5f0 baseline); last_seen_at NOT advanced.
   # Relied on T1-01/T1-02. Noted in health (#63).
   T1-05:
     last_seen_hash: "sha256:9041b5f00210fae191814ab6e93af95f7ce358f40fc492f1c43455ef16bc5fad"
     last_seen_at: 2026-07-23T13:20:00Z
-  # T1-06: digital-strategy library HTTP 200 (47 KB); hash drifted (9003f583 ->
-  # 91f13593) but no new in-scope substance: still "Digital Omnibus on AI"
-  # proposal, no 2026/1744, no corrigendum, no nudif; newest date "27 July 2026"
-  # predates last run. Delta = rotating WordPress content. Re-baselined, no issue.
+  # T1-06: digital-strategy library HTTP 200 (47 KB); hash unchanged (91f13593).
+  # Still "Digital Omnibus on AI" proposal, no 2026/1744, no corrigendum, no
+  # nudif. last_seen_at advanced.
   T1-06:
     last_seen_hash: "sha256:91f135933cf6dde50f1b8d4dfe364d706c70e40664aeac9ffe80bf4bbd920174"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_at: 2026-09-29T13:18:59Z
   # T1-07: AWS-WAF challenge page (doceo 202, 2431 B; hash 48c50f84 matches the
   # frozen baseline) — frozen, rely on T1-01. last_seen_at NOT advanced.
   T1-07:
     last_seen_hash: "sha256:48c50f84029022705d565bd9582319997e623c868c0679f3560f6c57d9e4e3ba"
     last_seen_at: 2026-06-11T06:23:11Z
-  # T1-08: normalized hash drifted (040d502b -> aa03c6ea) but SAME EDPB-EDPS
+  # T1-08: normalized hash drifted (aa03c6ea -> 95916244) but SAME EDPB-EDPS
   # Joint Opinion 1/2026 on our file ("Digital Omnibus" x2); no new substance
-  # (no 2026/1744, no nudif, no corrigendum). Delta = rotating "Related
-  # documents" widget. Re-baselined, no issue.
+  # (no 2026/1744, no nudif, no corrigendum; newest date 07 July 2026 predates
+  # last run). Delta = rotating "Related documents" widget. Re-baselined, no issue.
   T1-08:
-    last_seen_hash: "sha256:aa03c6ea4d2e40a8758599ce93a0dca8093299afe7ac9c3920044b490f3e50cd"
-    last_seen_at: 2026-09-28T13:18:30Z
-  # T1-09: AI-Act implementation-timeline HTTP 200; hash unchanged (a48efc79).
-  # No new in-scope substance. last_seen_at advanced.
+    last_seen_hash: "sha256:9591624468feb72db2593297f3339ddbf39ad50480bfa7c8db2f1e218febff90"
+    last_seen_at: 2026-09-29T13:18:59Z
+  # T1-09: AI-Act implementation-timeline HTTP 200; hash drifted (a48efc79 ->
+  # 9f39959a) but no new in-scope substance — the omnibus-amended dates still
+  # show (2 Dec 2027 x2, 2 Aug 2028 x6), no 2026/1744, no Digital Omnibus/836
+  # mention. Delta = rotating site content. Re-baselined, no issue.
   T1-09:
-    last_seen_hash: "sha256:a48efc791fedcff5d180980ab5d37e8c7b0a7f29ebf569abe0b48465356e8cc9"
-    last_seen_at: 2026-09-28T13:18:30Z
-  # T1-10: NL dossier 21501-33 HTTP 200 (61 KB). Hash drifted (26e0d1c0 ->
-  # e2b70019); new items nr. 1241-1247 (publ. 28-09-2026) appeared but ALL are
-  # Energieraad/datacenter/electric-car items (energy & environmental
-  # performance of datacenters, drinking water for cooling, winter energy
-  # security) — ZERO in-scope keywords (no AI-verordening / kunstmatige /
-  # Digital Omnibus / AI Act). Out of scope. Re-baselined, no issue.
+    last_seen_hash: "sha256:9f39959ab61e59906b764a52ea2aaeb7d579143cb1c06b464e5e5b58615b0831"
+    last_seen_at: 2026-09-29T13:18:59Z
+  # T1-10: NL dossier 21501-33 HTTP 200 (61 KB). Hash drifted (e2b70019 ->
+  # 499b6893) but ZERO in-scope keywords (no AI-verordening / kunstmatige /
+  # Digital Omnibus / AI Act / vereenvoudiging / uitstel). Out of scope.
+  # Re-baselined, no issue.
   T1-10:
-    last_seen_hash: "sha256:e2b700191c8cd4a19ac2bc42b1f041975ade0a56cd9cb60d98ad8807b9786a58"
-    last_seen_at: 2026-09-28T13:18:30Z
-  # T1-11: NL Kamervragen RSS HTTP 200. Hash matches last-good baseline
-  # (28fe6edb) exactly; no new items. last_seen_at advanced.
+    last_seen_hash: "sha256:499b689389a634e50375423b495cbd258af63e1b98360084afef76292e11a446"
+    last_seen_at: 2026-09-29T13:18:59Z
+  # T1-11: NL Kamervragen RSS — first fetch HTTP 503 ("Dienst tijdelijk niet
+  # beschikbaar", transient). One retry after 10s backoff → HTTP 200, hash
+  # matches last-good baseline (28fe6edb) exactly; no new items. Recovered, no
+  # health entry. last_seen_at advanced.
   T1-11:
     last_seen_hash: "sha256:28fe6edb3713a7e5d7be95a09e3363aece40e11883c01ba2276020393837804e"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_at: 2026-09-29T13:18:59Z
   # T1-12: AUTO-PAUSED 2026-09-24 — ep_committee_docs.py exit 2 (0 es_document
   # blocks; AWS-WAF/layout block) continuously since last success 2026-07-23
   # (>14 consecutive days). File 2025/0359 is fully adopted (Reg 2026/1744) so
@@ -112,33 +112,37 @@ sources:
       - PE784.465v01-00
       - PE784.179v01-00
     last_seen_at: 2026-07-23T13:20:00Z
-  # T2-01: techpolicy.press RSS healthy (3991 items). Hash drifted (a066e85b ->
-  # ffcb28bf); newest in-scope filter match is still 03 Sep (general AI-Act
-  # commentary, pre-last-run, already accounted for). No item dated on/after the
-  # last run matches the in-scope filter. Re-baselined.
+  # T2-01: techpolicy.press RSS healthy. Hash drifted (ffcb28bf -> bdc1e9bc);
+  # newest filter match is dated 29 Sep 2026 — "What Counts as Scientific
+  # Research? The EU's Digital Omnibus Could Set the Definition" — but the piece
+  # is about the GDPR "scientific research" definition in the DATA/cyber omnibus
+  # (2025/0360, COM(2025) 837): GDPR x8, scientific research x5, AI Act x0, no
+  # 836/2025/0359, only an incidental AI mention. Out of scope for THIS file.
+  # Re-baselined, no issue.
   T2-01:
-    last_seen_hash: "sha256:ffcb28bf90ce6e9986f2b64971acf0227fce26684be4926126dd96ae3b53932d"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_hash: "sha256:bdc1e9bc7dad6d8fbe451c15fbb7dd4a3849d185b29c8278b9bacd82b1e8b101"
+    last_seen_at: 2026-09-29T13:18:59Z
   # T2-02: medialaws tracker HTTP 200. Hash unchanged (caab39be); "Last updated:
   # 24 July 2026" and the Digital Omnibus on AI (COM(2025) 836) row unchanged.
   # last_seen_at advanced.
   T2-02:
     last_seen_hash: "sha256:caab39be750c559a696ac12a0489978e2a9bba2d98cf3730b27f97ac8d9a2e74"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_at: 2026-09-29T13:18:59Z
   # T2-03: EDRi feed HTTP 200 (20 items). Hash unchanged (85b2059e); no new item.
   # last_seen_at advanced.
   T2-03:
     last_seen_hash: "sha256:85b2059e08b88e34c546e07dfae01738cac9ea0eb25fe43b61946df308d47c6f"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_at: 2026-09-29T13:18:59Z
   # T2-04: ieu-monitoring /feed (no trailing slash) HTTP 200 (50 items). Hash
-  # drifted (98c90f98 -> bbd60a18); NO item matches the in-scope filter. No new
-  # in-scope item. Re-baselined, no issue.
+  # drifted (bbd60a18 -> 5af7f6ca); the only filter match ("EU Council adopts
+  # pharma package to improve access and competitiveness", 28 Sep) is a false
+  # positive — "COMPET" matched inside "competitiveness"; the item is the pharma
+  # package, no AI-file relevance. No in-scope item. Re-baselined, no issue.
   T2-04:
-    last_seen_hash: "sha256:bbd60a18b86da503d2d2ef0413ac3023127b2ba3e3c43b7f529aef6c5d152f5d"
-    last_seen_at: 2026-09-28T13:18:30Z
-  # T2-05: globalpolicywatch feed HTTP 200 (10 items). Hash drifted (35b8127b ->
-  # a45741bd); NO item matches the in-scope filter (US-focused analysis). No
-  # in-scope hit. Re-baselined.
+    last_seen_hash: "sha256:5af7f6cad23a7c22451f5b044cdcc5a06c83e2f1afe8cd8d781f37a98bcb1c41"
+    last_seen_at: 2026-09-29T13:18:59Z
+  # T2-05: globalpolicywatch feed HTTP 200 (10 items). Hash unchanged (a45741bd);
+  # no new item, no in-scope match. last_seen_at advanced.
   T2-05:
     last_seen_hash: "sha256:a45741bd855b47495d18520547a95550ff043a8d3474a09c4c873b7e313f5c71"
-    last_seen_at: 2026-09-28T13:18:30Z
+    last_seen_at: 2026-09-29T13:18:59Z
