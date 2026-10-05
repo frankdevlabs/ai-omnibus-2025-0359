@@ -123,6 +123,10 @@ watchlist:
       label: "EP Legislative Train — Digital Omnibus on AI"
       url: "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai"
       affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+      notes: >-
+        europarl.europa.eu bot-blocks non-browser clients (HTTP 202/AWS-WAF) — a 202 here is by-design,
+        not a health failure. File status is tracked via T1-01 (OEIL) / T1-02 (Cellar). The file is
+        adopted (Regulation (EU) 2026/1744, in force 27 Jul 2026); the train page no longer advances.
     T1-06:
       tier: T1
       kind: institutional
@@ -182,6 +186,9 @@ watchlist:
         document concerns THIS file 2025/0359 (the AI-Act Omnibus), NOT the sibling data-file 2025/0360,
         on the doc itself (not the listing summary). doceo bot-blocks the PDF/DOCX (HTTP 202/WAF): the
         listing confirms metadata; operative text needs a browser download or non-WAF mirror.
+        TERMINAL PAUSE (triage #64): file 2025/0359 is fully adopted (Regulation (EU) 2026/1744, in force
+        27 Jul 2026) — no live EP stage remains, so the 2026-09-24 auto-pause is expected, not a health
+        failure to resume. seen_refs preserved should a late corrigendum ever reopen the file.
     T1-13:
       tier: T1
       kind: institutional
@@ -194,6 +201,9 @@ watchlist:
         the document concerns THIS file 2025/0359 (the AI-Act Omnibus), NOT the sibling data-file
         2025/0360, on the doc itself (not the listing summary). doceo bot-blocks the PDF/DOCX (HTTP
         202/WAF): the listing confirms metadata; operative text needs a browser download or non-WAF mirror.
+        TERMINAL PAUSE (triage #64): file 2025/0359 is fully adopted (Regulation (EU) 2026/1744, in force
+        27 Jul 2026) — no live EP stage remains, so the 2026-09-24 auto-pause is expected, not a health
+        failure to resume. seen_refs preserved should a late corrigendum ever reopen the file.
     T1-14:
       tier: T1
       kind: institutional
@@ -207,6 +217,9 @@ watchlist:
         doc itself (not the listing summary; the same JURI page also lists 2025/0360 draft opinions).
         doceo bot-blocks the PDF/DOCX (HTTP 202/WAF): the listing confirms metadata; operative text needs
         a browser download or non-WAF mirror.
+        TERMINAL PAUSE (triage #64): file 2025/0359 is fully adopted (Regulation (EU) 2026/1744, in force
+        27 Jul 2026) — no live EP stage remains, so the 2026-09-24 auto-pause is expected, not a health
+        failure to resume. seen_refs preserved should a late corrigendum ever reopen the file.
     # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
