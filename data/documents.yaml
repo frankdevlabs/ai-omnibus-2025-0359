@@ -393,6 +393,32 @@ documents:
       stable public PDF / OJ link at registration time (CELEX 52025AR4240 not yet published) — cited by
       document number. Digest: docs/advisory/cofr-cdr-4240-2025.md.
 
+  # --- Member States -----------------------------------------------------------
+  - id: AH-TK-737-2026
+    title: "Netherlands — government answer to written questions (Kröger c.s.) on deepfake pornography of female politicians: scope and enforcement of the new AI Act Art 5 nudifier/CSAM prohibition"
+    body: Netherlands
+    date: 2026-11-23
+    limite: false
+    url: https://zoek.officielebekendmakingen.nl/ah-1281565.html
+    local: sources/member-states/AH-TK-737_nl-answer-deepfake-porn-nudifier_2026-11-23.pdf
+    lead_source: "Tracker T1-11 (officielebekendmakingen.nl Kamervragen AI-Omnibus RSS, 2026-11-24); GitHub issue #72."
+    notes: >-
+      Aanhangsel Handelingen II 2026/27, nr. 737 (document id ah-1281565; question set 2026Z21771).
+      Answer of Minister Van Weel (Justice and Security), also on behalf of the Minister of the Interior,
+      received 23 Nov 2026, to written questions by 15 women MPs from eight parties (Kröger c.s.). A NL
+      government **position/implementation** statement on the new AI Act Art 5 prohibition on nudifier /
+      CSAM-generating AI systems — the central AI-file addition of the Digital Omnibus on AI (2025/0359),
+      now in force via Regulation (EU) 2026/1744. The cabinet reads Art 5 as already covering nudifier
+      apps "regardless of the channel by which they are offered or reachable, including via so-called
+      gateway sites", and as covering open-weight models (classification does not depend on the
+      underlying model); notes these scope points "were not part of the negotiation talks on the Omnibus".
+      On stance: wants the AI Act first fully in force and effectively enforced before introducing new
+      rules. National enforcement: the AI Office enforces directly from December 2026 for GPAI-based /
+      VLOP-VLOSE cases; otherwise national market-surveillance authorities apply, to be designated via the
+      draft AI Act implementing law (uitvoeringswet, in consultation); the Autoriteit Persoonsgegevens
+      (AP) is the intended authority for prohibited practices. Fully public (officielebekendmakingen.nl,
+      no WAF). Routed to docs/member-state-positions.md.
+
   # --- Final act (Official Journal) --------------------------------------------
   - id: REG-2026-1744
     title: "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI)"

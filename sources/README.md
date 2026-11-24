@@ -61,6 +61,12 @@
 | `CES-3929-2025` | EESC opinion (CES3929/2025) | 2026-03-18 | cite-only | [EESC opinions](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions) |
 | `CDR-4240-2025` | CofR opinion (CDR4240/2025) | 2026-05-07 | cite-only | [OEIL](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0359(COD)) |
 
+## Member States
+
+| ID | Title | Date | Hosted file | Provenance |
+|---|---|---|---|---|
+| `AH-TK-737-2026` | **NL** — government answer (Van Weel) to written questions on deepfake porn of female politicians: scope + enforcement of the new AI Act Art 5 nudifier/CSAM ban | 2026-11-23 | `sources/member-states/` | [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-1281565.html) |
+
 ## Final act (Official Journal)
 
 | ID | Title | Date | Hosted file | Provenance |
