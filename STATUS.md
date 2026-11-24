@@ -58,7 +58,7 @@ day after publication) — comfortably before the 2 Aug 2026 AI Act high-risk ba
 | **EESC** | Opinion CES3929/2025 (18 Mar 2026) — [digest](docs/advisory/eesc-ces-3929-2025.md) · [register](sources/README.md) | Mandatory consultation delivered |
 | **ECB** | Opinion CON/2026/10 (13 Mar 2026) — [digest](docs/advisory/ecb-con-2026-10.md) · [register](sources/README.md) | Technical opinion; no objection to the simplification approach |
 | **CofR** | Opinion CDR4240/2025 (7 May 2026) — [digest](docs/advisory/cofr-cdr-4240-2025.md) · [register](sources/README.md) | Own-initiative opinion; substance pending source text |
-| **Member States** | Mandate agreed 13 Mar 2026 (ST 7322/26) — [register](sources/README.md) | No public delegation-level splits on record in this repo yet — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
+| **Member States** | **NL** answer on the Art 5 nudifier/CSAM ban — *Aanhangsel* nr. 737 (23 Nov 2026) — [register](sources/README.md) · [positions](docs/member-state-positions.md) | No Council delegation-level splits on record; **NL (post-adoption):** reads the Art 5 nudifier ban broadly (any channel incl. gateways, open-weight models; "not part of the Omnibus negotiations"), AP intended enforcer, implementing law pending — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
 
 ## Next milestones to watch
 
